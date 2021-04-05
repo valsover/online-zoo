@@ -16,14 +16,14 @@ for (let i = 0; i < animalFlags.length; i++){
 function changeFlag() {
     for (let i = 0; i < animalsNames.length; i++) {
         if (this.alt == animalsNames[i]) {
-            this.src = `/online-zoo/assets/icons/location-${animalsNames[i]}-active.svg`;
+            this.src = `../assets/icons/location-${animalsNames[i]}-active.svg`;
         }
     }
 }
 function flagReset() {
         for (let i = 0; i < animalsNames.length; i++) {
         if (this.alt == animalsNames[i]) {
-            this.src = `/online-zoo/assets/icons/location-${animalsNames[i]}.svg`;
+            this.src = `../assets/icons/location-${animalsNames[i]}.svg`;
         }
     }
 }
