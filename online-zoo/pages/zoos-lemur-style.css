@@ -49,6 +49,11 @@ form:hover {
 .no-outline:active {
   outline: none;
 }
+.h1 {
+  color: var(--black);
+  text-transform: none;
+  font-size: 1.8rem;
+}
 .h2-title {
   font-size: 5.4rem;
   font-weight: 600;
@@ -90,7 +95,24 @@ form:hover {
   justify-content: space-between;
 }
 .logo-area {
+  width: 96px;
   margin: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.big-zoo {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 3.8rem;
+  font-weight: 600;
+  line-height: 31px;
+}
+.logo-svg {
+  margin: 0;
+  padding: 0;
 }
 .header-nav {
   display: flex;
@@ -148,7 +170,7 @@ form:hover {
   height: 846px;
   background-color: var(--navy);
   position: absolute;
-  top: 123px;
+  top: 137.09px;
 }
 .sidebar-inner {
   display: grid;
@@ -166,19 +188,41 @@ form:hover {
   background-color: rgba(0, 0, 0, 0);
   padding: 0;
 }
-.images {
-  position: absolute;
-  left: 69.67px;
-  top: 134px;
-}
 .center {
   border-bottom: 1px solid var(--white);
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.center:hover {
+.circle {
+  margin: 0;
+  position: relative;
+}
+.eagles-fig {
+  position: absolute;
+  top: 25.5px;
+  left: 25px;
+}
+.panda-fig {
+  position: absolute;
+  top: 27.5px;
+  left: 14px;
+}
+.gorilla-fig {
+  position: absolute;
+  top: 27.5px;
+  left: 20px;
+}
+.lemur-fig {
+  position: absolute;
+  top: 38.5px;
+  left: 50px;
+}
+.eagles-fig:hover,
+.gorilla-fig:hover,
+.panda-fig:hover {
   cursor: pointer;
+  filter: drop-shadow(1px 1px 10px var(--white));
 }
 .row1 {
   height: 80px;
@@ -212,7 +256,7 @@ form:hover {
 }
 .cams-inner {
   position: relative;
-  width: 1400px;
+  width: 1380px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;

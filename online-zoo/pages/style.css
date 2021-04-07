@@ -49,6 +49,11 @@ form:hover {
 .no-outline:active {
   outline: none;
 }
+.h1 {
+  color: var(--black);
+  text-transform: none;
+  font-size: 1.8rem;
+}
 .h2-title {
   font-size: 5.4rem;
   font-weight: 600;
@@ -90,7 +95,24 @@ form:hover {
   justify-content: space-between;
 }
 .logo-area {
+  width: 96px;
   margin: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.big-zoo {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 3.8rem;
+  font-weight: 600;
+  line-height: 31px;
+}
+.logo-svg {
+  margin: 0;
+  padding: 0;
 }
 .header-nav {
   display: flex;
@@ -223,6 +245,7 @@ form:hover {
 .donation-title {
   margin: 0 0 20px 0;
   font-size: 4.2rem;
+  text-transform: uppercase;
   color: var(--white);
 }
 .donation-text {
@@ -459,7 +482,7 @@ input[type="number"] {
   background-size: cover;
 }
 .comments-inner {
-  max-width: 1400px;
+  width: 1400px;
   height: 1776px;
   margin: 0 auto;
   padding-bottom: 150px;
