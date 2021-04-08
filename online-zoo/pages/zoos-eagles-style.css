@@ -561,12 +561,13 @@ input[type="number"] {
 .volunteers-btn {
   width: 359px;
   height: 74px;
-  padding: 26px 33.86px;
+  padding-left: 33.86px;
   display: flex;
   align-items: center;
   border: 1px solid var(--white);
   background-color: rgba(0, 0, 0, 0);
   color: var(--white);
+  letter-spacing: 0.5px;
 }
 .volunteers-btn:hover,
 .volunteers-btn:active {
