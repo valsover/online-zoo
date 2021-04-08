@@ -79,6 +79,9 @@ form:hover {
   font-size: 1.8rem;
   font-weight: 600;
 }
+.arrow {
+  margin-left: 10px;
+}
 
 /* HEADER */
 .header {
@@ -206,47 +209,51 @@ padding: 0;
 }
 .map {
   position: relative;
-  margin: 70px 0 150px 0;
+  margin: 70px 0 146px 0;
+}
+.map-img img {
+  padding-bottom: 3px;
+  padding-right: 5px;
 }
 .panda-location {
   position: absolute;
-  left: 67.5%;
-  top: 39.1%;
+  left: 66%;
+  top: 34%;
 }
 .lemur-location {
   position: absolute;
-  left: 56.4%;
-  top: 66.3%;
+  left: 54.8%;
+  top: 61%;
 }
 .gorilla-location {
   position: absolute;
-  left: 49%;
-  top: 53%;
+  left: 47.4%;
+  top: 48%;
 }
 .eagles-location {
   position: absolute;
-  left: 11.7%;
-  top: 45.4%;
+  left: 10%;
+  top: 38.7%;
 }
 .crocodile-location {
   position: absolute;
-  left: 20.6%;
-  top: 45.5%;
+  left: 18.8%;
+  top: 40.2%;
 }
 .lion-location {
   position: absolute;
-  left: 40.5%;
-  top: 50.5%;
+  left: 39.2%;
+  top: 45.2%;
 }
 .tiger-location {
   position: absolute;
-  left: 72%;
-  top: 56.4%;
+  left: 70.5%;
+  top: 51.2%;
 }
 .koala-location {
   position: absolute;
-  left: 81.5%;
-  top: 69%;
+  left: 79.9%;
+  top: 63.7%;
 }
 .flag:hover {
   cursor: pointer;
