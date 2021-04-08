@@ -549,14 +549,14 @@ input[type="number"] {
   margin: 0 0 100px 0;
 }
 .article-border {
-  margin: 0 0 83px 0;
+  margin: 0 0 84px 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 .article-number {
-  margin: 0 92px 0 0;
+  margin: 0 88px 0 0;
 }
 .line {
   width: 1280px;
@@ -564,33 +564,49 @@ input[type="number"] {
   color: var(--white);
 }
 .article-paf {
-  margin-bottom: 86px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
+.paf-1 {
+  margin-bottom: 105px;
+}
+.paf-2 {
+  margin-bottom: 82px;
+}
+.paf-3 .article-title {
+  line-height: 34px;
+}
+.paf-3 .article-text {
+  width: 549px;
+}
 .article-img {
   margin: 0 160px 0 0;
 }
+.article-info {
+  margin-top: 19px;
+}
 .article-icon {
-  margin: 0 0 30px 0;
+  margin: 0 0 28px 0;
   padding: 0;
 }
 .article-title {
-  margin: 0 0 50px 0;
+  width: 502px;
+  margin: 0 0 51px 0;
 }
 .article-text {
   width: 560px;
   color: var(--white);
 }
 .donate-now-btn {
-  margin: 50px 0 100px 0;
+  margin: 55px 0 100px 0;
   width: 240px;
   height: 74px;
   display: flex;
   align-items: center;
   background-color: var(--orange);
   color: var(--white);
+  letter-spacing: 1.1px;
 }
 .donate-now-btn:hover,
 .donate-now-btn:active {
