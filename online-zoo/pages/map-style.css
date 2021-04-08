@@ -51,11 +51,11 @@ form:hover {
   outline: none;
 }
 .h1 {
+  margin: 0;
   color: var(--black);
   text-transform: none;
-  font-size: 1.8rem;
-  font-weight: 600;
-  letter-spacing: 1.5px;
+  font-size: 2rem;
+  font-weight: 700;
 }
 .h2-title {
   font-size: 5.4rem;
@@ -95,19 +95,20 @@ form:hover {
   justify-content: space-between;
 }
 .logo-area {
-  width: 100px;
-  margin: 0;
+  width: 96px;
+  height: 50px;
+  margin: 13px 0 15px;
   display: flex;
   align-items: center;
   text-align: center;
 }
 .big-zoo {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   text-transform: uppercase;
-  font-size: 4.2rem;
+  font-size: 42px;
   font-weight: 600;
-  line-height: 31px;
+  line-height: 30px;
 }
 .logo-svg {
   margin: 0;
@@ -122,38 +123,43 @@ form:hover {
 .nav-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 .top-nav-list {
+  justify-content: flex-start;
   margin: 0;
   padding: 0;
   width: 556px;
 }
 .socials-list {
+  justify-content: space-between;
   width: 180px;
   margin: 0 0 0 65px;
   padding: 0;
 }
 .top-nav-item:nth-child(1) {
-  margin: 0 48.25px 0 0;
+  margin: 0 48.4px 0 0;
   padding: 0;
 }
 .top-nav-item:nth-child(2) {
-  margin: 0 48.25px 0 0;
+  margin: 0 48.4px 0 0;
   padding: 0;
 }
 .top-nav-item:nth-child(3) {
-  margin: 0 48.25px 0 0;
+  margin: 0 48.4px 0 0;
   padding: 0;
 }
 .top-nav-item:nth-child(4) {
-  margin: 0 48.25px 0 0;
+  width: 121px;
+  margin: 0 48.4px 0 0;
   padding: 0;
 }
+.top-nav-item:nth-child(5) {
+margin: 0;
+padding: 0;
+}
 .nav-item-ref {
-  font-size: 1.81rem;
+  font-size: 18.1px;
   font-weight: 600;
-  letter-spacing: 0.3px;
   color: var(--black);
 }
 .nav-item-ref:hover,
