@@ -191,34 +191,37 @@ padding: 0;
 .hero {
   width: 100%;
   margin: 0;
-  background-image: url("../assets/images/hero-bg-img.png");
-  background-size: cover;
+  background-image: url("../assets/images/hero-bg-image.png");
+  background-size: 98%;
 }
 .hero-inner {
-  max-width: 1400px;
+  width: 1400px;
   margin: 0 auto;
 }
 .hero-title {
-  max-width: 890px;
+  width: 890px;
   margin-top: 129px;
-  margin-bottom: 50px;
+  margin-bottom: 31.2px;
   font-size: 8.2rem;
   font-weight: 800;
   text-transform: uppercase;
+  letter-spacing: 0.8px;
   color: var(--turquoise);
 }
 .hero-text {
   max-width: 430px;
-  margin-bottom: 50px;
+  margin-bottom: 44px;
 }
 .hero-button {
   margin-bottom: 131px;
+  padding-left: 30.5px;
   width: 240px;
   height: 74px;
   display: flex;
   align-items: center;
   background-color: var(--orange);
   color: var(--white);
+  letter-spacing: 0.65px;
 }
 .hero-button:hover,
 .hero-button:active {
