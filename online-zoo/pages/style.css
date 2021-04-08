@@ -237,21 +237,30 @@ padding: 0;
   max-width: 1400px;
   margin: auto;
   margin-top: 150px;
-  margin-bottom: 150px;
+  margin-bottom: 147px;
 }
 .welcome,
 .about {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 .welcome {
-  margin-bottom: 150px;
+  margin-bottom: 147px;
+}
+.welcome-title {
+  margin: 68px 0 51px 0;
+}
+.about-title {
+  margin: 113px 0 51px 0;
 }
 .welcome-text,
 .about-text {
   max-width: 560px;
+}
+.img-area img{
+  border-radius: 5px;
 }
 
 /* QUICK DONATE */
