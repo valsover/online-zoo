@@ -1,0 +1,222 @@
+@media screen and (max-width: 1200px) {
+    body {
+      width: 1200px;
+    }
+  
+    /* HEADER */
+    .header-inner {
+      width: 1000px;
+    }
+    .socials-list {
+      margin: 0 0 0 80px;
+    }
+    .top-nav-list {
+      width: 481px;
+    }      
+    .top-nav-item:nth-child(1) {
+      margin: 0 30px 0 0;
+      padding: 0;
+    }
+    .top-nav-item:nth-child(2) {
+      margin: 0 30px 0 0;
+      padding: 0;
+    }
+    .top-nav-item:nth-child(3) {
+      margin: 0 30px 0 0;
+      padding: 0;
+    }
+    .top-nav-item:nth-child(4) {
+      width: 121px;
+      margin: 0 30px 0 0;
+      padding: 0;
+    }
+    .top-nav-item:nth-child(5) {
+      margin: 0;
+      padding: 0;
+    }
+  
+    /* SIDEBAR */
+    .sidebar {
+      width: 115px;
+    }
+    .live-sign {
+      display: none;
+    } 
+    .arrows {
+      right: 50px;
+    } 
+    .down {
+      left: 50px;
+      bottom: 31px;
+    }
+    .circle {
+      background-image: none;
+    }
+    .eagles-fig {
+      top: 30px;
+      left: 26px;
+      width: 43px;
+      height: 40px;
+      background-image: url("../assets/icons/ellipse-eagles-1200.svg");
+    }
+    .panda-fig {
+      top: 30px;
+      left: 20px;
+      width: 54px;
+      height: 40px;
+      background-image: url("../assets/icons/ellipse-panda-1200.svg");
+    }
+    .gorilla-fig {
+      top: 41px;
+      left: 35px;
+      width: 46px;
+      height: 40px;
+      background-image: url("../assets/icons/ellipse-gorilla-white-1200.svg");
+    }
+    .lemur-fig {
+      top: 30px;
+      left: 35px;
+      width: 24px;
+      height: 40px;
+      background-image: url("../assets/icons/ellipce-lemur-1200.svg");
+      transform: none;
+    }
+    
+    /* LIVE CAMS SECTION */
+    .cams-inner {
+      width: 1120px;
+    }
+    .cams-title {
+      margin: 30px 0;
+      padding-right: 87px;
+    }
+    .donate-now-btn {
+      margin: 35px 0 100px 0;
+      height: 56px;
+    }    
+    .main-video iframe {
+      width: 1025px;
+      height: 760px;
+      margin-left: 95px;
+    }
+    .transparent-layer {
+      width: 1025px;
+      height: 760px;
+    }  
+    .top-layer {
+      margin-left: 106px;
+      padding-left: 6px;
+      letter-spacing: 0;
+    } 
+    .slider-title {
+      margin: 7px 0 30px 0;
+      padding-left: 87px;
+    } 
+    .cams-slider-inner {
+      padding-left: 99px;
+    }
+    .left-arrow,
+    .right-arrow {
+      margin: 0 0 2px 0;
+    } 
+    .slider-images {
+      grid-gap: 19px;
+    }  
+    .video2 iframe,
+    .video3 iframe,
+    .video4 iframe {
+      width: 267px;
+    }
+    .live-layer-1 {
+      padding-left: 14px;
+      padding-top: 2px;
+      width: 250px;
+    }
+    .live-layer-2 {
+      padding-left: 11px;
+      width: 250px;
+    }
+    .live-layer-3 {
+      padding-left: 9px;
+      width: 250px;
+    }
+    .donation-title {
+      width: 574px;
+      margin-bottom: 8px;
+    }
+    .donation-text {
+      width: 739px;
+      text-align: start;
+    }
+  
+    /* DONATE */
+    .donate {
+      height: 250px;
+      margin: 96px 0;
+      background-color: var(--navy);
+    }
+    .donate-inner {
+      width: 1120px;
+      padding: 30px 0;
+    }
+    
+    /* INFO */
+    .info-inner {
+      width: 1120px;
+      padding: 0;
+    }
+    .did-u-know {
+      width: 930px;
+      height: 300px;
+      margin-bottom: 35px;
+      margin-left: 95px;
+    }
+    .dun-title {
+      margin-top: 35px;
+      padding-left: 39.5px;
+    }
+    .dun-text {
+      width: 740px;
+      padding-left: 5px;
+      letter-spacing: -0.2px;
+    }
+    .animal-info {
+      width: 1120px;
+      margin: 95px 0 99px 0;
+    }
+    .info-text {
+      margin-top: 36.5px;
+    }
+    .photo img {
+      width: 456px;
+      height: 456px;
+    }
+  
+    /* FOOTER */
+    .footer {
+      position: relative;
+      height: 329px;
+    }
+    .footer-inner {
+      max-width: 1120px;
+    }
+    .logos {
+      grid-gap: 30px;
+    } 
+    .footer-nav-list {
+      width: 347px;
+      margin: 0 35px;
+      grid-template-columns: 68px 44px 54px 120.34px;
+      grid-gap: 20px;
+    }  
+    .bottom-line {
+      position: absolute;
+      left: 0;
+      top: 214px;
+      width: 1200px;
+      margin: 0;
+    }
+    .footer-bottom {
+      margin-top: 108px;
+    }
+  }
