@@ -221,25 +221,51 @@ padding: 0;
   margin: 0;
   position: relative;
 }
+.first {
+  width: 140px;
+  height: 140px;
+  background-image: url("../assets/icons/ellipse1.svg");
+}
+.second,
+.third,
+.fourth {
+  width: 120px;
+  height: 120px;
+  background-image: url("../assets/icons/ellipse.svg");
+  background-size: 100%;
+}
 .eagles-fig {
   position: absolute;
-  top: 25.5px;
-  left: 25px;
+  top: 18px;
+  left: 25.5px;
+  width: 68px;
+  height: 66px;
+  background-image: url("../assets/icons/ellipce-eagles.svg");
 }
 .panda-fig {
   position: absolute;
-  top: 39.5px;
+  top: 29px;
   left: 26px;
+  width: 88px;
+  height: 64px;
+  background-image: url("../assets/icons/ellipse-panda.svg");
 }
 .gorilla-fig {
   position: absolute;
-  top: 27.5px;
+  top: 21px;
   left: 20px;
+  width: 76px;
+  height: 64px;
+  background-image: url("../assets/icons/ellipse-gorilla.svg");
 }
 .lemur-fig {
   position: absolute;
-  top: 26.5px;
-  left: 38px;
+  top: 22px;
+  left: 40px;
+  width: 40px;
+  height: 66px;
+  background-image: url("../assets/icons/ellipse-lemur.svg");
+  transform: scale(-1, 1);
 }
 .eagles-fig:hover,
 .gorilla-fig:hover,
