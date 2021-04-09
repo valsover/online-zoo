@@ -1,0 +1,331 @@
+@media screen and (max-width: 1200px) {
+  body {
+    width: 1200px;
+  }
+
+  /* HEADER */
+  .header-inner {
+    width: 1000px;
+  }
+  .socials-list {
+    margin: 0 0 0 80px;
+  }
+  .top-nav-list {
+    width: 481px;
+  }      
+  .top-nav-item:nth-child(1) {
+    margin: 0 30px 0 0;
+    padding: 0;
+  }
+  .top-nav-item:nth-child(2) {
+    margin: 0 30px 0 0;
+    padding: 0;
+  }
+  .top-nav-item:nth-child(3) {
+    margin: 0 30px 0 0;
+    padding: 0;
+  }
+  .top-nav-item:nth-child(4) {
+    width: 121px;
+    margin: 0 30px 0 0;
+    padding: 0;
+  }
+  .top-nav-item:nth-child(5) {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* HERO */
+  .hero {
+    height: 690px;
+    background-image: url("../assets/images/1200-hero-bg-image.png");
+    background-size: 100%;
+  }
+  .hero-inner {
+    width: 1120px;
+  }
+  .hero-title {
+    margin-top: 100px;
+    margin-bottom: 12px;
+    }          
+  .hero-text {
+    max-width: 339px;
+    margin-bottom: 24px;
+  }
+
+  /* WELCOME + ABOUT */
+  .about-block-inner {
+    max-width: 1000px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .welcome {
+    position: relative;
+    margin-bottom: 73px;
+  }
+  .img-area img{
+    width: 660px;
+    height: 438px;
+  }
+  .welcome-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .about {
+    position: relative;
+  }
+  .about-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .text-area {
+    width: 560px;
+  }
+  .welcome-title,
+  .about-title {
+    margin: 468px 0 31px 0;
+  }
+  .about-text-area {
+    width: 100%;
+    padding-left: 339px;
+  }
+
+  /* QUICK DONATE */
+  .quick-donate {
+    height: 313px;
+  }
+  .quick-donate-inner {
+    width: 1000px;
+    align-items: flex-start;
+  }
+  .donation-info {
+    width: 577px;
+  }
+  .donation-title {
+    margin: 0 0 28px 0;
+  }
+  .input-donation {
+    margin-top: 12px;
+  }
+
+  /* MEET SOME OUR PETS  */
+  .animals-live-inner {
+    width: 1120px;
+  }    
+  .main-title {
+    margin: 100px 0 30px 0;
+    padding-left: 98px;
+  } 
+  .main-text {
+    width: 830px;
+  } 
+  .slider {
+    margin-bottom: 50px;
+  }    
+  .animals-list {
+    margin-top: 28px;
+    margin-bottom: 50px;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+  }    
+  .animal-card {
+    width: 455px;
+    height: 716px;
+  }
+  .photo img {
+    width: 455px;
+  }
+  .caption-title {
+    margin: 11px 0 16px 0;
+  }
+  .card1 .caption-text,
+  .card7 .caption-text {
+    width: 395px;
+  } 
+  .card2 .caption-text,
+  .card3 .caption-text,
+  .card6 .caption-text {
+    width: 366px;
+  }    
+  .caption-button {
+    padding-left: 20px;
+    letter-spacing: 2px;
+  }
+  .card1 .caption-button {
+    margin-top: 40px;
+  }
+    
+   /* PAY AND FEED */
+  .pay-and-feed-inner {
+    width: 1120px;
+    margin: 0 auto;
+    padding-top: 148px;
+  }
+  .pay-and-feed-title {
+    padding-left: 60px;
+  }
+  .line {
+    width: 1025px;
+  }
+  .article-number {
+    margin-right: 65px;
+  }
+  .b1 {
+    margin-bottom: 63px;
+  }
+  .b2 {
+    margin-bottom: 65px;
+  }
+  .b3 {
+    margin-bottom: 64px;
+  }
+  .article-img img {
+    width: 550px;
+    height: 358px;
+  } 
+  .paf-1 .article-img{
+    margin-right: 20px;
+    margin-top: 45px;
+  }
+  .paf-2 .article-img{
+    margin-right: 20px;
+  }
+  .paf-3 .article-img{
+    margin-right: 20px;
+  }
+  .paf-2 .article-icon {
+    margin-top: 25px;
+  }
+  .paf-3 .article-icon {
+    margin-top: 18px;
+  }
+  .article-info {
+    margin: 0;
+    text-align: center;
+  } 
+  .article-title {
+    margin-left: 23px;
+    margin-bottom: 32px;
+  }
+  .article-text {
+    width: 550px;
+  }  
+  .paf-1 {
+    margin-bottom: 80px;
+  } 
+  .paf-2 {
+    margin-bottom: 76px;
+  }
+  .donate-now-btn {
+    margin: 120px 0 100px 0;
+    width: 266px;
+    padding-left: 49px;
+    letter-spacing: 1.1px;
+  }
+     
+  /* COMMENTS */
+  .comments {
+    height: 1880px;
+    background-image: url("../assets/images/1200-comments-bg-img.png");
+  }  
+  .comments-inner {
+    width: 1120px;
+    height: 1880px;
+  } 
+  .title-comments-title {
+    margin: 0 0 20px 0;
+  }
+  .text-comments-title {
+    margin: 0;
+    width: 577px;
+  }
+  .comments-blocks {
+    top: 343px;
+  }
+  .comments-arrows {
+    margin: 90px 0 50px 840px;
+  } 
+  .comments-button {
+    margin-left: 95px;
+  }
+
+  /* CARE FOR THE ANIMALS YOU LOVE  */
+  .animals-feed-inner {
+    width: 930px;
+  }
+  .animals-feed-title {
+    margin: 151px 0 30px 45px;
+  } 
+  .animals-feed-text {
+    margin-left: 118px;
+  }  
+  .animals-feed-imgs {
+    margin: 47px 0 100px 0;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+  }
+  .afc1 {
+    width: 930px;
+    height: 470px;
+    background-image: url("../assets/images/1200-you-love--coala.png");  
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }  
+  .animals-feed-card {
+    width: 455px;
+    height: 639px;
+  }
+  .afc2 .animals-feed-card-info,
+  .afc4 .animals-feed-card-info {
+    width: 411px;
+    margin: 31px 0 0 0;
+    padding-right: 17px;
+  }    
+  .afc3 .animals-feed-card-info,
+  .afc5 .animals-feed-card-info {
+    margin: 29px 0 0 0;
+    padding-right: 13px;
+  } 
+  .feed-btn {
+    margin-bottom: 39px;
+  }
+  .feed-bottom-img {
+    width: 1200px;
+    height: 668px;
+    margin: 150px 0 147px 0;
+    background-image: url("../assets/images/1200-feed-bottom-img.png");
+    background-size: cover;
+  }
+  
+    /* FOOTER */
+  .footer {
+    position: relative;
+    height: 329px;
+  }
+  .footer-inner {
+    max-width: 1120px;
+  }
+  .logos {
+    grid-gap: 30px;
+  } 
+  .footer-nav-list {
+    width: 347px;
+    margin: 0 35px;
+    grid-template-columns: 68px 44px 54px 120.34px;
+    grid-gap: 20px;
+  }  
+  .bottom-line {
+    position: absolute;
+    left: 0;
+    top: 214px;
+    width: 1200px;
+    margin: 0;
+  }
+  .footer-bottom {
+    margin-top: 108px;
+  }
+}
