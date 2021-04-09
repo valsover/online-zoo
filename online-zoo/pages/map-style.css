@@ -209,9 +209,12 @@ padding: 0;
 }
 .map {
   position: relative;
-  margin: 70px 0 146px 0;
+  margin: 70px 0 149px 0;
 }
-.map-img img {
+.map-img {
+  width: 1400px;
+  height: 912px;
+  background-image: url("../assets/icons/map.svg");
   padding-bottom: 3px;
   padding-right: 5px;
 }
@@ -232,8 +235,8 @@ padding: 0;
 }
 .eagles-location {
   position: absolute;
-  left: 10%;
-  top: 40%;
+  left: 9.9%;
+  top: 38.6%;
 }
 .crocodile-location {
   position: absolute;
@@ -243,17 +246,17 @@ padding: 0;
 .lion-location {
   position: absolute;
   left: 39.2%;
-  top: 45.2%;
+  top: 45.4%;
 }
 .tiger-location {
   position: absolute;
   left: 70.5%;
-  top: 53%;
+  top: 51.3%;
 }
 .koala-location {
   position: absolute;
   left: 79.9%;
-  top: 63.7%;
+  top: 63.8%;
 }
 .flag:hover {
   cursor: pointer;

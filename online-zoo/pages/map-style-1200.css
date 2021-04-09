@@ -1,0 +1,121 @@
+@media screen and (max-width: 1200px) {
+  body {
+    width: 1200px;
+  }
+
+  /* HEADER */
+  .header-inner {
+    width: 1000px;
+  }
+  .socials-list {
+    margin: 0 0 0 80px;
+  }
+  .top-nav-list {
+    width: 481px;
+  }      
+  .top-nav-item:nth-child(1) {
+    margin: 0 30px 0 0;
+    padding: 0;
+  }
+  .top-nav-item:nth-child(2) {
+    margin: 0 30px 0 0;
+    padding: 0;
+  }
+  .top-nav-item:nth-child(3) {
+    margin: 0 30px 0 0;
+    padding: 0;
+  }
+  .top-nav-item:nth-child(4) {
+    width: 121px;
+    margin: 0 30px 0 0;
+    padding: 0;
+  }
+  .top-nav-item:nth-child(5) {
+    margin: 0;
+    padding: 0;
+  }
+  
+    /* MAIN */
+  .main-inner {
+    width: 1200px;
+  }
+  .main-title {
+    margin-top: 30px;
+  }
+  .map {
+    margin: 16px 0 100px 0;
+  }
+  .map-img {
+    width: 1198px;
+    height: 777px;
+    background-image: url("../assets/icons/1200-map.svg");
+  }
+  .panda-location {
+    position: absolute;
+    left: 69.5%;
+    top: 27.8%;
+  }
+  .lemur-location {
+    position: absolute;
+    left: 54.5%;
+    top: 58%;
+  }
+  .gorilla-location {
+    position: absolute;
+    left: 46.9%;
+    top: 45%;
+  }
+  .eagles-location {
+    position: absolute;
+    left: 8.9%;
+    top: 35.2%;
+  }
+  .crocodile-location {
+    position: absolute;
+    left: 18.8%;
+    top: 38%;
+  }
+  .lion-location {
+    position: absolute;
+    left: 38.5%;
+    top: 41.2%;
+  }
+  .tiger-location {
+    position: absolute;
+    left: 69.7%;
+    top: 49.8%;
+  }
+  .koala-location {
+    position: absolute;
+    left: 79.1%;
+    top: 60.8%;
+  }  
+    
+  /* FOOTER */
+  .footer {
+    position: relative;
+    height: 329px;
+  }
+  .footer-inner {
+    max-width: 1120px;
+  }
+  .logos {
+    grid-gap: 30px;
+  } 
+  .footer-nav-list {
+    width: 347px;
+    margin: 0 35px;
+    grid-template-columns: 68px 44px 54px 120.34px;
+    grid-gap: 20px;
+  }  
+  .bottom-line {
+    position: absolute;
+    left: 0;
+    top: 214px;
+    width: 1200px;
+    margin: 0;
+  }
+  .footer-bottom {
+    margin-top: 108px;
+  }
+}
