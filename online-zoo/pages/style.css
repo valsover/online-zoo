@@ -389,16 +389,28 @@ input[type="number"] {
 .arrow-left,
 .arrow-right {
   margin: 0;
-}
-.arrow-left svg:hover,
-.arrow-right svg:hover {
-  cursor: pointer;
-  background-color: var(--navy);
+  width: 60px;
+  height: 60px;
   border-radius: 5px;
-  fill: var(--white);
+}
+.arrow-left {
+  background-image: url('/assets/icons/arrow-left-black.svg');
+}
+.arrow-right {
+  background-image: url('/assets/icons/arrow-right-black.svg');
+}
+.arrow-left:hover {
+  cursor: pointer;
+  background-image: url('/assets/icons/arrow-left-white.svg');
+  background-color: var(--navy);
+}
+.arrow-right:hover {
+  cursor: pointer;
+  background-image: url('/assets/icons/arrow-right-white.svg');
+  background-color: var(--navy);
 }
 .animals-list {
-  margin-top: 47px;
+  margin-top: 50px;
   margin-bottom: 100px;
   padding: 0;
   display: grid;
@@ -421,6 +433,10 @@ input[type="number"] {
 }
 .photo img {
   border-radius: 5px;
+}
+.photo > img:first-of-type {
+  width: 440px;
+  height: 436px;
 }
 .name {
   position: absolute;
@@ -512,13 +528,17 @@ input[type="number"] {
 .caption-button {
   width: 240px;
   height: 53px;
-  margin: 36px 0 60px 0;
+  margin: 23px 0 65px 0;
   padding-left: 28px;
   display: flex;
   align-items: center;
   background-color: rgba(0, 0, 0, 0);
   color: var(--orange);
-  letter-spacing: 0.65px;
+  letter-spacing: 0.1px;
+}
+.card1 .caption-button,
+.card8 .caption-button {
+  margin-top: 35px;
 }
 .main-button {
   width: 359px;
@@ -589,6 +609,10 @@ input[type="number"] {
 }
 .article-img {
   margin: 0 160px 0 0;
+}
+.article-img > img:first-of-type {
+  width: 560px;
+  height: 364px;
 }
 .article-info {
   margin-top: 19px;
@@ -712,20 +736,33 @@ input[type="number"] {
 }
 .comments-arrows {
   width: 180px;
-  margin: 50px 0;
+  margin: 62px 0 50px 0;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
+}
+.left-arrow,
+.right-arrow {
+  margin: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
 }
 .left-arrow {
-  margin-right: 60px;
+  background-image: url('/assets/icons/arrow-left-white.svg');
 }
-.left-arrow svg:hover,
-.right-arrow svg:hover {
+.right-arrow {
+  background-image: url('/assets/icons/arrow-right-white.svg');
+}
+.left-arrow:hover {
   cursor: pointer;
+  background-image: url('/assets/icons/arrow-left-black.svg');
   background-color: var(--white);
-  border-radius: 5px;
-  fill: var(--navy);
+}
+.right-arrow:hover {
+  cursor: pointer;
+  background-image: url('/assets/icons/arrow-right-black.svg');
+  background-color: var(--white);
 }
 .comments-button {
   width: 359px;
@@ -775,7 +812,7 @@ input[type="number"] {
   display: grid;
   grid-template-columns: auto auto auto;
   column-gap: 34px;
-  row-gap: 37px;
+  row-gap: 40px;
 }
 .afc1 {
   width: 926px;
@@ -827,10 +864,10 @@ input[type="number"] {
   text-transform: none;
 }
 .feed-btn {
-  width: 142px;
-  height: 74px;
-  margin-bottom: 50px;
-  padding-left: 29.5px;
+  width: 100px;
+  height: 23px;
+  margin-bottom: 75px;
+  padding-left: 7px;
   display: flex;
   background-color: rgba(0, 0, 0, 0);
   border: 0;
@@ -858,7 +895,7 @@ input[type="number"] {
 .feed-bottom-img {
   width: 1400px;
   height: 652px;
-  margin: 153px 0 150px 0;
+  margin: 150px 0;
   background-image: url("../assets/images/feed-bottom-img.png");
   background-size: cover;
 }
