@@ -157,8 +157,8 @@ form:hover {
   padding: 0;
 }
 .top-nav-item:nth-child(5) {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .nav-item-ref {
   font-size: 18.1px;
@@ -181,9 +181,11 @@ padding: 0;
   height: 43px;
   margin: 0;
   padding: 0;
+}
+.social-icon img {
   transition: 0.5s;
 }
-.social-icon:hover {
+.social-icon img:hover {
   transform: scale(1.2);
 }
 
@@ -349,8 +351,10 @@ padding: 0;
 .footer-social-item,
 .footer-social-icon {
   margin: 0;
+}
+.footer-social-icon img {
   transition: 0.5s;
 }
-.footer-social-icon:hover {
+.footer-social-icon img:hover {
   transform: scale(1.2);
 }

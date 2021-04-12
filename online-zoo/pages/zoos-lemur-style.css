@@ -181,9 +181,11 @@ padding: 0;
   height: 43px;
   margin: 0;
   padding: 0;
+}
+.social-icon img {
   transition: 0.5s;
 }
-.social-icon:hover {
+.social-icon img:hover {
   transform: scale(1.2);
 }
 
@@ -708,8 +710,10 @@ input[type="number"] {
 .footer-social-item,
 .footer-social-icon {
   margin: 0;
+}
+.footer-social-icon img {
   transition: 0.5s;
 }
-.footer-social-icon:hover {
+.footer-social-icon img:hover {
   transform: scale(1.2);
 }
