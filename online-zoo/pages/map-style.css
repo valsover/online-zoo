@@ -213,6 +213,10 @@ form:hover {
   position: relative;
   margin: 70px 0 149px 0;
 }
+.map img {
+  width: 139px;
+  height: 205px;
+}
 .map-img {
   width: 1400px;
   height: 912px;
