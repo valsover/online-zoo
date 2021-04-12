@@ -1,15 +1,16 @@
 const mapButton = document.querySelector('.caption-button');
+const arrow = document.querySelector('.caption-arrow');
 
 mapButton.addEventListener('mouseover', changeColor);
 mapButton.addEventListener('click', changeColor);
 
 function changeColor() {
-    this.classList.toggle('active');
+    arrow.src = '../assets/icons/white-arrow.svg';
 }
 
 mapButton.addEventListener('mouseout', colorReset);
 mapButton.addEventListener('mouseup', colorReset);
 
 function colorReset() {
-    this.classList.remove('active');
+    arrow.src = '../assets/icons/orange-arrow.svg';
 }

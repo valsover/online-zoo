@@ -211,6 +211,7 @@ padding: 0;
   height: 15px;
   border: none;
   background-color: rgba(0, 0, 0, 0);
+  background-image: url('../assets/icons/sidebar-more-btn.svg');
   padding: 0;
 }
 .center {
@@ -294,10 +295,13 @@ padding: 0;
   border-bottom: none !important;
 }
 .down {
+  width: 15px;
+  height: 9px;
   margin: 0;
   position: absolute;
   bottom: 35px;
   left: 103px;
+  background-image: url('../assets/icons/sidebar-down-btn.svg');
 }
 
 /* LIVE CAMS SECTION */
@@ -319,6 +323,9 @@ padding: 0;
 }
 .main-video {
   position: relative;
+}
+.main-video iframe {
+  border: none;
 }
 .transparent-layer {
   position: absolute;
@@ -385,12 +392,25 @@ padding: 0;
 .right-arrow {
   margin: 0 0 4px 0;
 }
-.left-arrow svg:hover,
-.left-arrow svg:active,
-.right-arrow svg:hover,
-.right-arrow svg:active {
+.left-arrow {
+  width: 80px;
+  height: 74px;
+  background-image: url('../assets/icons/slider-arrow-left.svg');
+}
+.right-arrow {
+  width: 80px;
+  height: 74px;
+  background-image: url('../assets/icons/slider-arrow-right.svg');
+}
+.left-arrow:hover,
+.left-arrow:active {
   cursor: pointer;
-  fill: var(--turquoise);
+  background-image: url('../assets/icons/slider-arrow-left-hover.svg');
+}
+.right-arrow:hover,
+.right-arrow:active {
+  cursor: pointer;
+  background-image: url('../assets/icons/slider-arrow-right-hover.svg');
 }
 .slider-images {
   margin: 0 13px;
@@ -406,6 +426,7 @@ padding: 0;
 .video3 iframe,
 .video4 iframe{
   border-radius: 5px;
+  border: none;
 }
 .slider-top-layer-1,
 .slider-top-layer-2,
@@ -594,24 +615,23 @@ input[type="number"] {
 .caption-button {
   position: absolute;
   top: -21px;
-  left: 239px;
+  left: 240px;
   width: 240px;
   height: 74px;
   border-radius: 5px;
-  padding: 8px 0 0 46px;
+  margin-top: 3px;
+  padding: 12px 0 12px 46px;
   letter-spacing: 1.5px;
   display: flex;
   align-items: center;
   background-color: rgba(0, 0, 0, 0);
   color: var(--orange);
+  transition: 0.2s;
 }
 .caption-button:hover,
 .caption-button:active {
   background-color: var(--orange);
   color: var(--white);
-}
-.caption-button.active svg {
-  fill: var(--white);
 }
 .photo {
   width: 440px;
