@@ -20,6 +20,9 @@
     right: 48px;
     background-image: url(../assets/icons/hamburger-icon.svg);
   }
+  .burger:hover {
+    cursor: pointer;
+  }
   .top-nav-list {
     display: none;
   }      
