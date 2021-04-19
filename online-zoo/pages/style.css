@@ -125,6 +125,9 @@ form:hover {
   display: flex;
   flex-direction: row;
 }
+.burger {
+  display: none;
+}
 .top-nav-list {
   justify-content: flex-start;
   margin: 0;
@@ -872,6 +875,9 @@ input[type="number"] {
   background-color: rgba(0, 0, 0, 0);
   border: 0;
   color: var(--orange);
+}
+.dots {
+  display: none;
 }
 .animals-feed-button {
   width: 359px;

@@ -1,0 +1,436 @@
+@media screen and (max-width: 640px) {
+  body {
+    min-width: 640px;
+    width: 640px;
+    max-width: 640px;
+  }
+
+  /* HEADER */
+  .header-inner {
+    width: 600px;
+  }
+  .socials-list {
+    display: none;
+  }
+  .burger {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 48px;
+    background-image: url(../assets/icons/hamburger-icon.svg);
+  }
+  .top-nav-list {
+    display: none;
+  }      
+
+  /* HERO */
+  .hero {
+    height: 644px;
+    background-image: url("../assets/images/640-hero-bg-image.png");
+    background-size: 100%;
+  }
+  .hero-inner {
+    width: 600px;
+  }
+  .hero-title {
+    width: 600px;
+    font-size: 7.2rem;
+    margin-top: 50px;
+    margin-bottom: 13px;
+    }          
+  .hero-text {
+    width: 339px;
+    margin-bottom: 24px;
+  }
+  .hero-button {
+    width: 285px;
+    padding-left: 54px;
+    letter-spacing: 0.6px;
+  }
+
+  /* WELCOME + ABOUT */
+  .about-block-inner {
+    width: 640px;
+  }
+  .welcome {
+    margin-bottom: 46px;
+  }
+  .text-area {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .welcome-text,
+  .about-text {
+    width: 600px;
+  }
+  .welcome-img img{
+    width: 640px;
+    height: 438px;
+  }
+  .about-img img {
+    width: 640px;
+    height: 425px;
+  }
+  .about-title {
+    margin-top: 454px;
+  }
+  .about-text-area {
+    padding: 0;
+  }
+
+  /* QUICK DONATE */
+  .quick-donate {
+    height: 459px;
+  }
+  .quick-donate-inner {
+    width: 600px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .donation-text {
+    width: 578px;
+    margin-bottom: 30px;
+  }
+  .donation-form {
+    width: 363px;
+  }
+  .input-donation {
+    justify-content: space-between;
+  }
+  #donation-amount {
+    padding-top: 21px;
+    margin-left: 23px;
+  }
+  .donation-button {
+    padding-top: 18px;
+    width: 74px;
+  }
+
+  /* MEET SOME OUR PETS  */
+  .animals-live-inner {
+    width: 600px;
+    overflow: hidden;
+  }    
+  .main-title {
+    margin: 100px auto 30px auto;
+    padding: 0;
+    width: 394px;
+  } 
+  .main-text {
+    width: 600px;
+  } 
+  .slider {
+    margin-top: 50px;
+  }
+  .arrows {
+    display: none;
+  }    
+  .animals-list {
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-gap: 20px;
+  }    
+  .animal-card {
+    width: 290px;
+    height: 600px;
+  }
+  .card6 {
+    order: -2;
+  }
+  .card7 {
+    order: -1;
+  }
+  .photo > img:first-of-type {
+    width: 290px;
+    height: 333px;
+  }
+  .caption {
+    margin: 0 auto;
+  }
+  .caption-title {
+    margin: 11px 0 13px 0;
+  }
+  .card1 .caption-text,
+  .card6 .caption-text,
+  .card7 .caption-text {
+    width: 241px;
+    text-align: center;
+  }
+  .card1 .caption-button,
+  .card6 .caption-button,
+  .card7 .caption-button {
+    padding-top: 3px;
+  }
+    
+   /* PAY AND FEED */
+   .pay-and-feed {
+    margin-top: 100px;
+   }  
+  .pay-and-feed-inner {
+    width: 640px;
+    padding-top: 80px;
+  }
+  .pay-and-feed-title {
+    padding-left: 100px;
+    margin-bottom: 49px;
+  }
+  .pay-and-feed-articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .article-paf {
+    flex-direction: column;
+    align-items: center;
+  }  
+  .line {
+    width: 563px;
+  }
+  .article-number {
+    margin-right: 10px;
+  }
+  .b1 {
+    margin-bottom: 53px;
+  }
+  .b2 {
+    margin-bottom: 52px;
+  }
+  .b3 {
+    margin-bottom: 52px;
+  }
+  .article-img > img:first-of-type {
+    width: 640px;
+    height: 417px;
+  } 
+  .paf-1 .article-img{
+    margin: 0 0 50px 0;
+  }
+  .paf-2 .article-img{
+    margin-right: 0;
+  }
+  .paf-3 .article-img{
+    margin-right: 0;
+  }
+  .paf-2 .article-icon {
+    margin-top: 47px;
+  }
+  .paf-3 .article-icon {
+    margin-top: 45px;
+  }
+  .article-info {
+    margin: 0;
+    text-align: center;
+  } 
+  .article-title {
+    margin-left: 50px;
+    margin-bottom: 29px;
+  }
+  .paf-3 .article-title {
+    width: 599px;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 32px;
+  }
+  .paf-3 .article-text {
+    width: 599px;
+    text-align: center;
+    margin-right: 0;
+  }
+  .article-text {
+    width: 600px;
+  }  
+  .paf-1 {
+    margin-bottom: 45px;
+  } 
+  .paf-2 {
+    margin-bottom: 50px;
+  }
+  .donate-now-btn {
+    margin: 54px auto 100px auto;
+    width: 290px;
+    padding-left: 60px;
+    letter-spacing: 1.1px;
+  }
+     
+  /* COMMENTS */
+  .comments {
+    height: 1651px;
+    background-image: url("../assets/images/640-comments-bg-img.png");
+  }  
+  .comments-inner {
+    width: 600px;
+    height: 1651px;
+    position: relative;
+  } 
+  .title-area {
+    margin-top: 60px;
+  }
+  .comments-blocks {
+    top: 304px;
+    position: absolute;
+    left: 0;
+  }
+  .blocks {
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+  } 
+  .block-card {
+    width: 523px;
+    height: 371px;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+  } 
+  .quotes {
+    position: absolute;
+    top: 46px;
+    left: 33px;
+  }
+  .comments-title {
+    width: 220px;
+    text-align: center;
+    margin: 7px 0 30px 0;
+  }  
+  .comments-text {
+    width: 463px;
+    text-align: center;
+  }
+  .comments-arrows {
+    display: none;
+  } 
+  .comments-button {
+    width: 368px;
+    margin-left: 0;
+    margin-bottom: 602px;
+  }
+
+  /* CARE FOR THE ANIMALS YOU LOVE  */
+  .animals-feed-inner {
+    width: 600px;
+  }
+  .animals-feed-title {
+    margin: 80px 0 30px 0;
+  } 
+  .animals-feed-text {
+    width: 600px;
+    margin-left: 0;
+  }
+  .animals-feed-imgs {
+    margin-top: 67px;
+    margin-bottom: 0;
+  }  
+  .animals-feed-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .animals-feed-img img {
+    width: 70%;
+    height: 297px;
+  }  
+  .afc1,
+  .afc3,
+  .afc4,
+  .afc5 {
+    display: none;
+  }  
+  .animals-feed-card {
+    position: relative;
+    width: 600px;
+    height: 297px;
+  }
+  .afc2 .animals-feed-card-info {
+    width: 415px;
+    margin: 66px 0 0 0;
+    padding-right: 0;
+  } 
+  .animals-feed-card-info {
+    width: 260px;
+    margin: 0;
+    padding-left: 7px;
+  }    
+  .feed-btn {
+    position: absolute;
+    top: 197px;
+    right: 100px;
+  }
+  .dots {
+    display: block;
+  }
+  .dot {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 10px 8.5px 0 8.5px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .dot:active,
+  .dot:hover {
+    background-color: black;
+  }
+  .dot:nth-child(1) {
+    background-color: black;
+  }
+  .animals-feed-button {
+    margin-top: 48px;
+  }
+  .feed-bottom-img {
+    width: 640px;
+    height: 379px;
+    margin: 98px 0;
+    background-image: url("../assets/images/1200-feed-bottom-img.png");
+    background-size: cover;
+  }
+  
+    /* FOOTER */
+  .footer {
+    position: relative;
+    height: 545px;
+  }
+  .footer-inner {
+    width: 600px;
+    padding-top: 50px;
+  }
+  .footer-top,
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logos {
+    grid-gap: 80px;
+    margin-bottom: 50px;
+  } 
+  .footer-nav-list {
+    width: 445px;
+    margin: 0 35px 47px 35px;
+    grid-template-columns: 68px 44px 54px 120.34px;
+    grid-gap: 53px;
+  }  
+  .bottom-line {
+    position: absolute;
+    left: 0;
+    top: 346px;
+    width: 640px;
+    margin: 0;
+  }
+  .footer-bottom {
+    margin-top: 100px;
+  }
+  .footer-socials-list {
+    grid-gap: 50px;
+  }
+  .footer-socials {
+    order: -1;
+  }
+  .copyrights {
+    margin-top: 28px;
+    margin-left: 50px;
+  }
+}

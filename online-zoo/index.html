@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="pages/style.css" />
     <link rel="stylesheet" href="pages/style-1200.css" media="screen and (max-width: 1200px)">
+    <link rel="stylesheet" href="pages/style-640.css" media="screen and (max-width: 640px)">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link 
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" 
@@ -29,6 +30,7 @@
             </a>
           </div>
           <div class="header-nav">
+            <p class="burger"></p>
             <nav class="top-nav">
               <ul class="top-nav-list nav-list">
                 <li class="top-nav-item">
@@ -618,6 +620,12 @@
                 </a>
               </li>
             </ul>
+            <div class="dots">
+              <p class="dot" onclick="currentSlide(1)"></p> 
+              <p class="dot" onclick="currentSlide(2)"></p> 
+              <p class="dot" onclick="currentSlide(3)"></p>
+              <p class="dot" onclick="currentSlide(4)"></p>  
+            </div>
             <form action="pages/map.html" target="_self">
               <button class="animals-feed-button btn-font no-outline">
                 choose your favourite
