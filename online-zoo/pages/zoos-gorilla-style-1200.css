@@ -40,7 +40,17 @@
     /* SIDEBAR */
     .sidebar {
       width: 115px;
+      z-index: 9999;
     }
+    .row1 {
+      width: 115px;
+    }
+    .row2,
+    .row3,
+    .row4,
+    .row5 {
+      width: 115px;
+    }    
     .live-sign {
       display: none;
     } 
@@ -56,14 +66,14 @@
     }
     .eagles-fig {
       top: 30px;
-      left: 26px;
+      left: 36px;
       width: 43px;
       height: 40px;
       background-image: url("../assets/icons/ellipse-eagles-1200.svg");
     }
     .panda-fig {
       top: 30px;
-      left: 20px;
+      left: 30px;
       width: 54px;
       height: 40px;
       background-image: url("../assets/icons/ellipse-panda-1200.svg");
@@ -77,7 +87,7 @@
     }
     .lemur-fig {
       top: 30px;
-      left: 35px;
+      left: 45px;
       width: 24px;
       height: 40px;
       background-image: url("../assets/icons/ellipce-lemur-1200.svg");
@@ -104,6 +114,7 @@
     .transparent-layer {
       width: 1025px;
       height: 760px;
+      margin-left: 95px;
     }  
     .top-layer {
       margin-left: 106px;

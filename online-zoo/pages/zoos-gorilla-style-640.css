@@ -31,9 +31,11 @@
     .sidebar {
       width: 78px;
       height: 500px;
+      z-index: 9999;
     }
     .row1 {
       height: 50px;
+      width: 78px;
     }
     .arrows {
       right: 30px;
@@ -44,17 +46,18 @@
     .row4,
     .row5 {
       height: 100px;
+      width: 78px;
     }  
-    .eagles-fig {
+      .eagles-fig {
       top: 33px;
-      left: 13px;
+      left: 23px;
       width: 32px;
       height: 30px;
       background-size: cover;
     }
     .panda-fig {
       top: 33px;
-      left: 9px;
+      left: 19px;
       width: 40px;
       height: 30px;
       background-size: cover;
@@ -68,7 +71,7 @@
     }
     .lemur-fig {
       top: 35px;
-      left: 20px;
+      left: 30px;
       width: 18px;
       height: 30px;
       background-size: cover;
@@ -101,6 +104,7 @@
     .transparent-layer {
       width: 542px;
       height: 402px;
+      margin-left: 57px;
     } 
     .top-layer {
       font-size: 15px;
