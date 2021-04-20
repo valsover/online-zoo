@@ -280,19 +280,23 @@
     background-image: url("../assets/images/640-comments-bg-img.png");
   }  
   .comments-inner {
-    width: 600px;
+    width: 640px;
     height: 1651px;
     position: relative;
   } 
   .title-area {
     margin-top: 60px;
+    margin-left: 20px;
   }
   .comments-blocks {
+    overflow: hidden;
     top: 304px;
     position: absolute;
-    left: 0;
+    left: 10px;
   }
   .blocks {
+    margin-left: 10px;
+    overflow: hidden;
     grid-template-columns: auto auto auto auto;
     grid-gap: 20px;
   } 
@@ -323,7 +327,7 @@
   } 
   .comments-button {
     width: 368px;
-    margin-left: 0;
+    margin-left: 20px;
     margin-bottom: 602px;
   }
 
