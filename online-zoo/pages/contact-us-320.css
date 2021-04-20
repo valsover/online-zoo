@@ -1,0 +1,130 @@
+@media screen and (max-width: 320px) {
+  body {
+    min-width: 320px;
+    width: 320px;
+    max-width: 320px;
+  }
+  .page-wrapper {
+    height: 100vh;
+    overflow: auto;
+  }
+  
+  /* HEADER */
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .header-inner {
+    width: 280px;
+    margin: 0 auto;
+  }
+  .burger {
+    right: 32px;
+  }
+
+  /* MAIN */
+  .main-inner {
+    width: 320px;
+  }
+  .img-section img {
+    width: 350px;
+    height: 217px;
+  }
+  .main-section {
+    width: 300px;
+    margin-top: 28px;
+    margin-bottom: 80px;
+  } 
+  .text-field,
+  .form-field {
+    width: 300px;
+  }
+  .title-field {
+    width: 300px;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+  } 
+  .form-field {
+    margin-top: 43px;
+  }
+  .form-field,
+  .form-input {
+    width: 300px;
+  }
+  .form-input {
+    height: 50px;
+    margin-top: 3px;
+    margin-bottom: 31px;
+  }
+  .textarea {
+    height: 200px;
+    margin-bottom: 30px;
+  }
+  .form-btn {
+    width: 300px;
+    height: 50px;
+    margin-top: 0px;
+    padding: 12px 0 16px 59px;
+  }    
+
+  /* FOOTER */
+  .footer {
+    height: 710px;
+  }
+  .footer-inner {
+    width: 300px;
+    padding-top: 50px;
+  }
+  .logos {
+    margin-bottom: 29px;
+    grid-template-columns: auto;
+    grid-gap: 30px;  
+    align-items: center;
+  }
+  .main-footer-logo,
+  .yem-logo,
+  .rsschool-logo {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-nav {
+    width: 300px;
+  }
+  .footer-nav-list {
+    width: 300px;
+    margin: 0;
+    grid-template-columns: 60px 39px 48px 107px;
+    grid-gap: 15px;
+  }
+  .footer-nav-item-ref {
+    font-size: 16px;
+  }
+  .bottom-line {
+    top: 489px;
+    width: 320px;
+  }
+  .volunteers-btn {
+    width: 299px;
+    height: 45px;
+    margin-top: 32px;
+    padding: 9px 0 9px 31px;
+    text-transform: none;
+    letter-spacing: 0.8px;
+  }
+  .footer-bottom {
+    margin-top: 30px;
+  }
+  .copyrights {
+    margin-top: 58px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 30px;  
+    align-items: center;
+  }
+  .copyright {
+    text-align: center;
+  }
+
+}
