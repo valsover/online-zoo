@@ -1,0 +1,362 @@
+@media screen and (max-width: 320px) {
+  body {
+    min-width: 320px;
+    width: 320px;
+    max-width: 320px;
+  }
+  .page-wrapper {
+    height: 100vh;
+    overflow: auto;
+  }
+  
+  /* HEADER */
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .header-inner {
+    width: 280px;
+    margin: 0 auto;
+  }
+  .burger {
+    right: 32px;
+  }
+
+  /* SIDEBAR */
+  .sidebar {
+    width: 50px;
+    height: 300px;
+    position: relative;
+    z-index: 99;
+    top: 0;
+  }
+  .row1,
+  .row2,
+  .row3,
+  .row4,
+  .row5,
+  .row6 {
+    height: 50px;
+    width: 50px;
+  }
+  .arrows {
+    left: 16px;
+    top: 17px;
+  }
+  .eagles-fig {
+    top: 40px;
+    left: 15px;
+    width: 21px;
+    height: 19.7px;
+    background-size: cover;
+    z-index: 98;
+  }
+  .panda-fig {
+    top: 41px;
+    left: 12px;
+    width: 26px;
+    height: 19.5px;
+    background-size: cover;
+    z-index: 98;
+  }
+  .gorilla-fig {
+    top: 39px;
+    left: 14px;
+    width: 22px;
+    height: 19.4px;
+    background-size: cover;
+    z-index: 98;
+  }
+  .lemur-fig {
+    top: 49px;
+    left: 18.5px;
+    width: 12px;
+    height: 20px;
+    background-size: cover;
+  } 
+  .down {
+    left: 17px;
+    bottom: 19px;
+  } 
+
+  /* LIVE CAMS SECTION */
+  .cams-inner {
+    width: 302px;
+    justify-content: flex-start;
+  }
+  .cams-title {
+    font-size: 26px;
+    margin: 20px 0 14px 33px;
+    letter-spacing: 0.5px;
+  }
+  .main-video iframe {
+    width: 270px;
+    height: 200px;
+  }
+  .transparent-layer {
+    width: 270px;
+    height: 200px;
+  }
+  .top-layer {
+    font-size: 7.5px;
+    width: 260px;
+    height: 40px;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 0;
+    line-height: 130%;
+  }
+  .donate-now-btn {
+    width: 300px;
+    height: 45px;
+    top: 453px;
+    padding: 11.5px 0 11.5px 64px;
+    right: 42px;
+  }
+  .left-arrow,
+  .video4,
+  .right-arrow {
+    display: none;
+  }
+  .cams-slider {
+    width: 300px;
+    position: absolute;
+    margin-left: 0;
+    right: 40px;
+    top: 287px;
+  }
+  .slider-title {
+    margin: 0;
+    margin-left: 75px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  } 
+  .cams-slider-inner {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .video2 iframe,
+  .video3 iframe {
+    width: 140px;
+    height: 110px;
+  }
+  .slider-top-layer-1,
+  .slider-top-layer-2 {
+    width: 140px;
+    height: 110px;
+  }
+
+  /* DONATE */
+  .donate {
+    height: 539px;
+    margin: 285px 0 20px 0;
+  }
+  .donate-inner {
+    width: 300px;
+    margin-left: 12px;
+    margin-right: 8px;
+    padding-top: 50px;
+  }
+  .donation-title {
+    width: 300px;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+  .donation-text {
+    width: 300px;
+    margin-top: 25px;
+    text-align: center;
+    letter-spacing: 0.3px;
+  }
+  .donation-form {
+    width: 300px;
+    margin-top: 23px;
+  }
+  .input-donation,
+  #donation-amount {
+    width: 300px;
+    height: 45px;
+  }
+  #donation-amount {
+    padding: 11px 0 11px 26px;
+  }
+  #donation-amount::placeholder {
+    font-size: 16px;
+  }
+  .donation-button {
+    width: 67px;
+    height: 43.5px;
+    padding: 10px 10px 13px 13px;
+  }
+
+  /* INFO */
+  .info-inner {
+    width: 320px;
+  }
+  .did-u-know {
+    width: 300px;
+    height: 347px;
+    margin: 158px auto;
+  }
+  .dun-title {
+    width: 280px;
+    margin: 30px auto 0 auto;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+  .dun-text {
+    width: 280px;
+    margin-top: 25px;
+    padding-right: 0;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -0.1px;
+  }
+  .animal-info {
+    margin-top: 42px;
+    margin-bottom: 77px;
+  }
+  .photo {
+    width: 320px;
+    height: 320px;
+  }
+  .photo img {
+    width: 320px;
+    height: 320px;
+  }
+  .short-info {
+    width: 300px;
+  } 
+  .info-list {
+    width: 238px;
+    margin-top: 41px;
+    margin-left: 10px;
+  }
+  .property {
+    padding-right: 0;
+  }
+  .info-list-item:nth-child(1) {
+    margin-bottom: 52px;
+    line-height: 185%;
+    letter-spacing: 0.5px;
+  }
+  .info-list-item:nth-child(2) {
+    margin-bottom: 46px;
+    line-height: 170%;
+    letter-spacing: 0.4px;
+  }
+  .info-list-item:nth-child(3) {
+    width: 95px;
+    margin-bottom: 49px;
+    line-height: 170%;
+    letter-spacing: 0.5px;
+  }
+  .info-list-item:nth-child(4) {
+    width: 270px;
+    margin-bottom: 65px;
+    line-height: 145%;
+    letter-spacing: 0.3px;
+  }
+  .info-list-item:nth-child(4) > .property::after {
+    content: "\a";
+    white-space: pre;
+  }
+  .info-list-item:nth-child(5) {
+    width: 95px;
+    margin-bottom: 49px;
+    line-height: 170%;
+    letter-spacing: 0.4px;
+  }
+  .info-list-item:nth-child(6) {
+    width: 300px;
+    margin-bottom: 49px;
+    line-height: 170%;
+    letter-spacing: 0.3px;
+  }
+  .info-list-item:nth-child(6) > .property::after {
+    content: "\a";
+    white-space: pre;
+  }
+  .info-list-item:nth-child(7) {
+    width: 200px;
+    margin-bottom: 49px;
+    line-height: 170%;
+    letter-spacing: 0.4px;
+  }
+  .info-list-item:nth-child(7) > .property::after {
+    content: "\a";
+    white-space: pre;
+  }
+  .caption-button {
+    left: 26px;
+    top: 85px;
+  }
+  .info-text {
+    width: 300px;
+    margin: 322px 10px 0 10px;
+  }
+
+  /* FOOTER */
+  .footer {
+    height: 710px;
+  }
+  .footer-inner {
+    width: 300px;
+    padding-top: 50px;
+  }
+  .logos {
+    margin-bottom: 29px;
+    grid-template-columns: auto;
+    grid-gap: 30px;  
+    align-items: center;
+  }
+  .main-footer-logo,
+  .yem-logo,
+  .rsschool-logo {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-nav {
+    width: 300px;
+  }
+  .footer-nav-list {
+    width: 300px;
+    margin: 0;
+    grid-template-columns: 60px 39px 48px 107px;
+    grid-gap: 15px;
+  }
+  .footer-nav-item-ref {
+    font-size: 16px;
+  }
+  .bottom-line {
+    top: 489px;
+    width: 320px;
+  }
+  .volunteers-btn {
+    width: 299px;
+    height: 45px;
+    margin-top: 32px;
+    padding: 9px 0 9px 31px;
+    text-transform: none;
+    letter-spacing: 0.8px;
+  }
+  .footer-bottom {
+    margin-top: 30px;
+  }
+  .copyrights {
+    margin-top: 58px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 30px;  
+    align-items: center;
+  }
+  .copyright {
+    text-align: center;
+  }
+}
