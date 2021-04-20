@@ -21,7 +21,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .page-wrapper {
-  overflow: hidden;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -197,8 +196,9 @@ padding: 0;
   width: 220px;
   height: 846px;
   background-color: var(--navy);
-  position: absolute;
-  top: 110px;
+  position: sticky;
+  top: 0;
+  margin: 0;
 }
 .sidebar-inner {
   display: grid;
@@ -311,11 +311,12 @@ padding: 0;
 .cams {
   width: 100%;
   margin: 0;
+  display: flex;
 }
 .cams-inner {
   position: relative;
   width: 1400px;
-  margin: 0 auto;
+  margin: 0 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
