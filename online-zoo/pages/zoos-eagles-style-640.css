@@ -4,8 +4,17 @@
     width: 640px;
     max-width: 640px;
   }
-
+  .page-wrapper {
+    height: 100vh;
+    overflow: auto;
+  }
+  
   /* HEADER */
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
   .header-inner {
     width: 600px;
   }
@@ -31,7 +40,8 @@
   .sidebar {
     width: 78px;
     height: 500px;
-    z-index: 9999;
+    z-index: 99;
+    top: 110px;
   }
   .row1 {
     height: 50px;
@@ -87,7 +97,7 @@
   }
   .cams-title {
     font-size: 42px;
-    margin: 25px 0 21px 65px;
+    margin: 25px 0 21px 63px;
     letter-spacing: -0.5px;
   }
   .donate-now-btn {
@@ -95,31 +105,32 @@
     height: 24px;
     top: 482px;
     padding-left: 20px;
+    right: 57px;
   }
   .main-video iframe {
     width: 542px;
     height: 402px;
-    margin-left: 57px;
+    margin-left: 0;
   }
   .transparent-layer {
     width: 542px;
     height: 402px;
-    margin-left: 57px;
+    margin-left: 0;
   } 
   .top-layer {
     font-size: 15px;
     width: 530px;
     height: 50px;
-    margin-left: 60px;
+    margin-left: 5px;
     margin-top: 10px;
   }
   .cams-slider {
     width: 600px;
-    margin-left: 310px;
+    margin-left: 79px;
     align-items: flex-start;
   }
   .slider-title {
-    margin: 85px 0 20px 0;
+    margin: 85px 0 20px 20px;
     padding-left: 0px;
     font-size: 26px;
     text-transform: none;
