@@ -175,13 +175,14 @@
     height: 12px;
     padding-left: 3px;
   } 
+  
   /* DONATE */
   .donate {
     height: 515px;
     margin: 77px 0;
   }
   .donate-inner {
-    max-width: 600px;
+    width: 600px;
     padding: 50px 0;
     flex-direction: column;
     align-items: center;
