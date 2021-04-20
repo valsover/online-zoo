@@ -4,8 +4,17 @@
     width: 640px;
     max-width: 640px;
   }
-
+  .page-wrapper {
+    height: 100vh;
+    overflow: auto;
+  }
+  
   /* HEADER */
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
   .header-inner {
     width: 600px;
   }
