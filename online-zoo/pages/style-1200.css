@@ -129,7 +129,7 @@
   .animals-list {
     margin-top: 28px;
     margin-bottom: 50px;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     grid-gap: 20px;
   }    
   .animal-card {
