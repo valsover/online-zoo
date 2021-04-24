@@ -209,30 +209,24 @@
   @keyframes showBlock {
     0% {
       transform: scaleY(0.1);
-      opacity: 0.5;
     }
     40% {
       transform: scaleY(1.02);
-      opacity: 0.6;
     }
     60% {
       transform: scaleY(0.98);
-      opacity: 0.7;
     }
     80% {
       transform: scaleY(1.01);
-      opacity: 0.8;
     }
     100% {
       transform: scaleY(0.98);
-      opacity: 1;
     }
     80% {
       transform: scaleY(1.01);
     }
     100% {
       transform: scaleY(1);
-      opacity: 1;
     }
   }
   @-webkit-keyframes showBlock {
