@@ -5,7 +5,7 @@
   background-color: var(--orange);
 }
 .header-inner {
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 16px 0;
   display: flex;
@@ -55,7 +55,7 @@
   padding: 0;
 }
 .top-nav-item:nth-child(1) {
-  margin: 0 48.4px 0 0;
+  margin: 0 46px 0 0;
   padding: 0;
 }
 .top-nav-item:nth-child(2) {
@@ -67,7 +67,7 @@
   padding: 0;
 }
 .top-nav-item:nth-child(4) {
-  width: 122px;
+  width: 123px;
   margin: 0 48.4px 0 0;
   padding: 0;
 }

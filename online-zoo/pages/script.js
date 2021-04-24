@@ -5,6 +5,9 @@ const burgerMenu = document.querySelector('.burger-menu');
 const closeBurgerMenu = document.querySelector('.close-burger-menu');
 const topNav = document.querySelector('.top-nav-list');
 const navItem = document.querySelectorAll('.nav-item-ref');
+const popUpClose = document.querySelector('.pop-up-close');
+const popUp = document.querySelector('.pop-up');
+const blanket = document.querySelector('.blanket');
 
 mainButton.addEventListener('mouseover', changeColor);
 mainButton.addEventListener('click', changeColor);
@@ -40,4 +43,10 @@ function closeSideNav() {
     navItem[i].classList.remove('side-menu');
   }
   closeBurgerMenu.classList.remove('side-menu');
+}
+
+popUpClose.addEventListener('click', closePopUp);
+function closePopUp() {
+  popUp.classList.toggle('hidden');
+  blanket.classList.toggle('hidden');
 }
