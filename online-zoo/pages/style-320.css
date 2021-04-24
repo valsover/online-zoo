@@ -8,20 +8,6 @@
     height: 100vh;
     overflow: auto;
   }
-  
-  /* HEADER */
-  .header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  .header-inner {
-    width: 280px;
-    margin: 0 auto;
-  }
-  .burger {
-    right: 32px;
-  }
 
   /* HERO */
   .hero {
@@ -42,7 +28,7 @@
   .hero-text {
     width: 299px;
     margin-bottom: 26px;
-  }  
+  }
   .hero-button {
     width: 300px;
     height: 45px;
@@ -72,7 +58,7 @@
     font-size: 26px;
     font-weight: 500;
   }
-  .welcome-title{
+  .welcome-title {
     margin-top: 248px;
     margin-bottom: 25px;
   }
@@ -176,8 +162,8 @@
     height: 45px;
     font-size: 18px;
     text-transform: none;
-  } 
-  
+  }
+
   /* PAY AND FEED */
   .pay-and-feed {
     margin-top: 4px;
@@ -209,7 +195,7 @@
   .article-img > img:first-of-type {
     width: 320px;
     height: 208px;
-  } 
+  }
   .article-border {
     width: 320px;
     padding-left: 10px;
@@ -363,7 +349,7 @@
   .animals-feed-img img {
     width: 300px;
     height: 297px;
-  } 
+  }
   .afc2 .animals-feed-card-info {
     width: 240px;
     padding-left: 0;
@@ -372,7 +358,7 @@
   .feed-btn {
     position: inherit;
     margin-top: 26px;
-  } 
+  }
   .dots {
     margin-top: 20px;
   }
@@ -399,7 +385,7 @@
   .logos {
     margin-bottom: 29px;
     grid-template-columns: auto;
-    grid-gap: 30px;  
+    grid-gap: 30px;
     align-items: center;
   }
   .main-footer-logo,
@@ -439,7 +425,7 @@
     margin-top: 58px;
     display: grid;
     grid-template-columns: auto;
-    grid-gap: 30px;  
+    grid-gap: 30px;
     align-items: center;
   }
   .copyright {

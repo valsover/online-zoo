@@ -8,33 +8,6 @@
     height: 100vh;
     overflow: auto;
   }
-  
-  /* HEADER */
-  .header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  .header-inner {
-    width: 600px;
-  }
-  .socials-list {
-    display: none;
-  }
-  .burger {
-    display: block;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    right: 48px;
-    background-image: url(../assets/icons/hamburger-icon.svg);
-  }
-  .burger:hover {
-    cursor: pointer;
-  }
-  .top-nav-list {
-    display: none;
-  }      
 
   /* SIDEBAR */
   .sidebar {
@@ -42,7 +15,7 @@
     height: 500px;
     z-index: 99;
     top: 110px;
-    }
+  }
   .row1 {
     height: 50px;
     width: 78px;
@@ -57,8 +30,8 @@
   .row5 {
     height: 100px;
     width: 78px;
-  }  
-    .eagles-fig {
+  }
+  .eagles-fig {
     top: 35px;
     left: 23px;
     width: 32px;
@@ -85,11 +58,11 @@
     width: 18px;
     height: 30px;
     background-size: cover;
-  } 
+  }
   .down {
     left: 32px;
     bottom: 21px;
-  } 
+  }
 
   /* LIVE CAMS SECTION */
   .cams-inner {
@@ -118,7 +91,7 @@
     width: 542px;
     height: 402px;
     margin-left: 0;
-  } 
+  }
   .top-layer {
     font-size: 15px;
     width: 530px;
@@ -136,7 +109,7 @@
     padding-left: 0px;
     font-size: 26px;
     text-transform: none;
-  } 
+  }
   .cams-slider-inner {
     padding-left: 0;
   }
@@ -149,7 +122,7 @@
   }
   .video2 iframe,
   .video3 iframe,
-  .video4 iframe{
+  .video4 iframe {
     width: 135px;
     height: 106px;
   }
@@ -176,7 +149,7 @@
     width: 12px;
     height: 12px;
     padding-left: 3px;
-  } 
+  }
   /* DONATE */
   .donate {
     height: 488px;
@@ -203,7 +176,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }  
+  }
   .input-donation {
     margin-top: 0;
     width: 363px;
@@ -212,10 +185,10 @@
   #donation-amount {
     width: 363px;
     padding: 23px 0 26px 40px;
-  } 
+  }
   .donation-button {
     padding-left: 16px;
-  } 
+  }
 
   /* INFO */
   .info-inner {
@@ -225,33 +198,33 @@
     width: 600px;
     height: 354px;
     margin-left: 0;
-  } 
+  }
   .dun-title {
     margin-top: 25px;
     padding-left: 0;
     margin-right: 10px;
-  } 
+  }
   .dun-text {
     width: 540px;
     margin-top: 32px;
-  } 
+  }
   .animal-info {
     width: 600px;
     margin: 71px 0 74px 0;
-  }  
+  }
   .short-info {
     width: 600px;
     margin: 0;
     flex-direction: column;
     align-items: flex-start;
-  } 
+  }
   .photo img {
     width: 600px;
     height: 600px;
-  } 
+  }
   .photo {
     order: -1;
-  } 
+  }
   .info-list {
     margin-top: 68px;
   }
@@ -259,7 +232,7 @@
     width: 600px;
     margin-top: 46px;
   }
-  
+
   /* FOOTER */
   .footer {
     position: relative;
@@ -277,13 +250,13 @@
   .logos {
     grid-gap: 80px;
     margin-bottom: 50px;
-  } 
+  }
   .footer-nav-list {
     width: 445px;
     margin: 0 35px 47px 35px;
     grid-template-columns: 68px 44px 54px 120.34px;
     grid-gap: 53px;
-  }  
+  }
   .bottom-line {
     position: absolute;
     left: 0;

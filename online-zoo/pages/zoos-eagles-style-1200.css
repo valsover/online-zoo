@@ -5,38 +5,6 @@
     max-width: 1200px;
   }
 
-  /* HEADER */
-  .header-inner {
-    width: 1000px;
-  }
-  .socials-list {
-    margin: 0 0 0 80px;
-  }
-  .top-nav-list {
-    width: 481px;
-  }      
-  .top-nav-item:nth-child(1) {
-    margin: 0 30px 0 0;
-    padding: 0;
-  }
-  .top-nav-item:nth-child(2) {
-    margin: 0 30px 0 0;
-    padding: 0;
-  }
-  .top-nav-item:nth-child(3) {
-    margin: 0 30px 0 0;
-    padding: 0;
-  }
-  .top-nav-item:nth-child(4) {
-    width: 122px;
-    margin: 0 30px 0 0;
-    padding: 0;
-  }
-  .top-nav-item:nth-child(5) {
-    margin: 0;
-    padding: 0;
-  }
-
   /* SIDEBAR */
   .sidebar {
     width: 115px;
@@ -50,13 +18,13 @@
   .row4,
   .row5 {
     width: 115px;
-  }  
+  }
   .live-sign {
     display: none;
-  } 
+  }
   .arrows {
     right: 50px;
-  } 
+  }
   .down {
     left: 50px;
     bottom: 31px;
@@ -93,7 +61,7 @@
     background-image: url("../assets/icons/ellipce-lemur-1200.svg");
     transform: none;
   }
-  
+
   /* LIVE CAMS SECTION */
   .cams-inner {
     width: 1120px;
@@ -107,7 +75,7 @@
     margin: 35px 0 100px 0;
     height: 56px;
     right: 40px;
-  }    
+  }
   .main-video iframe {
     width: 1025px;
     height: 760px;
@@ -117,18 +85,18 @@
     width: 1025px;
     height: 760px;
     margin-left: 20px;
-  }  
+  }
   .top-layer {
     margin-left: 32px;
     padding-left: 5px;
     letter-spacing: 0;
-  } 
+  }
   .cams-slider {
     align-items: flex-start;
-  }  
+  }
   .slider-title {
     margin: 7px 0 30px 330px;
-  } 
+  }
   .cams-slider-inner {
     padding-left: 0;
     margin-left: 20px;
@@ -136,10 +104,10 @@
   .left-arrow,
   .right-arrow {
     margin: 0 0 18px 0;
-  } 
+  }
   .slider-images {
     grid-gap: 19px;
-  }  
+  }
   .video2 iframe,
   .video3 iframe,
   .video4 iframe {
@@ -177,7 +145,7 @@
     width: 1120px;
     padding: 30px 0;
   }
-  
+
   /* INFO */
   .info-inner {
     width: 1120px;
@@ -217,13 +185,13 @@
   }
   .logos {
     grid-gap: 30px;
-  } 
+  }
   .footer-nav-list {
     width: 347px;
     margin: 0 35px;
     grid-template-columns: 68px 44px 54px 120.34px;
     grid-gap: 20px;
-  }  
+  }
   .bottom-line {
     position: absolute;
     left: 0;

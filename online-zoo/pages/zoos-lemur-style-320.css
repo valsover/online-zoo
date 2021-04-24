@@ -8,20 +8,6 @@
     height: 100vh;
     overflow: auto;
   }
-  
-  /* HEADER */
-  .header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  .header-inner {
-    width: 280px;
-    margin: 0 auto;
-  }
-  .burger {
-    right: 32px;
-  }
 
   /* SIDEBAR */
   .sidebar {
@@ -74,11 +60,11 @@
     width: 12px;
     height: 20px;
     background-size: cover;
-  } 
+  }
   .down {
     left: 17px;
     bottom: 19px;
-  } 
+  }
 
   /* LIVE CAMS SECTION */
   .cams-inner {
@@ -132,7 +118,7 @@
     font-size: 18px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-  } 
+  }
   .cams-slider-inner {
     margin-left: 0;
     margin-top: 20px;
@@ -232,7 +218,7 @@
   }
   .short-info {
     width: 300px;
-  } 
+  }
   .info-list {
     width: 238px;
     margin-top: 41px;
@@ -313,7 +299,7 @@
   .logos {
     margin-bottom: 29px;
     grid-template-columns: auto;
-    grid-gap: 30px;  
+    grid-gap: 30px;
     align-items: center;
   }
   .main-footer-logo,
@@ -353,7 +339,7 @@
     margin-top: 58px;
     display: grid;
     grid-template-columns: auto;
-    grid-gap: 30px;  
+    grid-gap: 30px;
     align-items: center;
   }
   .copyright {

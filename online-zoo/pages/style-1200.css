@@ -5,38 +5,6 @@
     max-width: 1200px;
   }
 
-  /* HEADER */
-  .header-inner {
-    width: 1000px;
-  }
-  .socials-list {
-    margin: 0 0 0 80px;
-  }
-  .top-nav-list {
-    width: 481px;
-  }      
-  .top-nav-item:nth-child(1) {
-    margin: 0 30px 0 0;
-    padding: 0;
-  }
-  .top-nav-item:nth-child(2) {
-    margin: 0 30px 0 0;
-    padding: 0;
-  }
-  .top-nav-item:nth-child(3) {
-    margin: 0 30px 0 0;
-    padding: 0;
-  }
-  .top-nav-item:nth-child(4) {
-    width: 122px;
-    margin: 0 30px 0 0;
-    padding: 0;
-  }
-  .top-nav-item:nth-child(5) {
-    margin: 0;
-    padding: 0;
-  }
-
   /* HERO */
   .hero {
     height: 690px;
@@ -49,7 +17,7 @@
   .hero-title {
     margin-top: 100px;
     margin-bottom: 12px;
-    }          
+  }
   .hero-text {
     width: 339px;
     margin-bottom: 24px;
@@ -65,7 +33,7 @@
     position: relative;
     margin-bottom: 73px;
   }
-  .img-area img{
+  .img-area img {
     width: 660px;
     height: 438px;
   }
@@ -115,23 +83,23 @@
   /* MEET SOME OUR PETS  */
   .animals-live-inner {
     width: 1120px;
-  }    
+  }
   .main-title {
     margin: 100px 0 30px 0;
     padding-left: 98px;
-  } 
+  }
   .main-text {
     width: 830px;
-  } 
+  }
   .slider {
     margin-bottom: 50px;
-  }    
+  }
   .animals-list {
     margin-top: 28px;
     margin-bottom: 50px;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
-  }    
+  }
   .animal-card {
     width: 455px;
     height: 716px;
@@ -149,12 +117,12 @@
   .card1 .caption-text,
   .card7 .caption-text {
     width: 395px;
-  } 
+  }
   .card2 .caption-text,
   .card3 .caption-text,
   .card6 .caption-text {
     width: 366px;
-  }    
+  }
   .caption-button {
     padding-left: 20px;
     letter-spacing: 1.5px;
@@ -162,8 +130,8 @@
   .card1 .caption-button {
     margin-top: 40px;
   }
-    
-   /* PAY AND FEED */
+
+  /* PAY AND FEED */
   .pay-and-feed-inner {
     width: 1120px;
     margin: 0 auto;
@@ -190,15 +158,15 @@
   .article-img > img:first-of-type {
     width: 550px;
     height: 358px;
-  } 
-  .paf-1 .article-img{
+  }
+  .paf-1 .article-img {
     margin-right: 20px;
     margin-top: 45px;
   }
-  .paf-2 .article-img{
+  .paf-2 .article-img {
     margin-right: 20px;
   }
-  .paf-3 .article-img{
+  .paf-3 .article-img {
     margin-right: 20px;
   }
   .paf-2 .article-icon {
@@ -210,17 +178,17 @@
   .article-info {
     margin: 0;
     text-align: center;
-  } 
+  }
   .article-title {
     margin-left: 23px;
     margin-bottom: 32px;
   }
   .article-text {
     width: 550px;
-  }  
+  }
   .paf-1 {
     margin-bottom: 80px;
-  } 
+  }
   .paf-2 {
     margin-bottom: 76px;
   }
@@ -230,16 +198,16 @@
     padding-left: 49px;
     letter-spacing: 1.1px;
   }
-     
+
   /* COMMENTS */
   .comments {
     height: 1880px;
     background-image: url("../assets/images/1200-comments-bg-img.png");
-  }  
+  }
   .comments-inner {
     width: 1120px;
     height: 1880px;
-  } 
+  }
   .title-area {
     margin-top: 103px;
   }
@@ -255,7 +223,7 @@
   }
   .comments-arrows {
     margin: 100px 0 50px 840px;
-  } 
+  }
   .comments-button {
     margin-left: 95px;
   }
@@ -267,10 +235,10 @@
   }
   .animals-feed-title {
     margin: 151px 0 30px 45px;
-  } 
+  }
   .animals-feed-text {
     margin-left: 118px;
-  }  
+  }
   .animals-feed-imgs {
     margin: 47px 0 100px 0;
     grid-template-columns: auto;
@@ -280,14 +248,14 @@
   }
   .animals-feed-img img {
     width: 455px;
-  }  
+  }
   .afc1 {
     width: 930px;
     height: 470px;
-    background-image: url("../assets/images/1200-you-love--coala.png");  
+    background-image: url("../assets/images/1200-you-love--coala.png");
     grid-column-start: 1;
     grid-column-end: 3;
-  }  
+  }
   .animals-feed-card {
     width: 455px;
     height: 639px;
@@ -297,12 +265,12 @@
     width: 411px;
     margin: 31px 0 0 0;
     padding-right: 17px;
-  }    
+  }
   .afc3 .animals-feed-card-info,
   .afc5 .animals-feed-card-info {
     margin: 29px 0 0 0;
     padding-right: 13px;
-  } 
+  }
   .feed-btn {
     margin-bottom: 62px;
   }
@@ -313,8 +281,8 @@
     background-image: url("../assets/images/1200-feed-bottom-img.png");
     background-size: cover;
   }
-  
-    /* FOOTER */
+
+  /* FOOTER */
   .footer {
     position: relative;
     height: 329px;
@@ -324,13 +292,13 @@
   }
   .logos {
     grid-gap: 30px;
-  } 
+  }
   .footer-nav-list {
     width: 347px;
     margin: 0 35px;
     grid-template-columns: 68px 44px 54px 120.34px;
     grid-gap: 20px;
-  }  
+  }
   .bottom-line {
     position: absolute;
     left: 0;

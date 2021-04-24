@@ -8,33 +8,6 @@
     height: 100vh;
     overflow: auto;
   }
-  
-  /* HEADER */
-  .header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  .header-inner {
-    width: 600px;
-  }
-  .socials-list {
-    display: none;
-  }
-  .burger {
-    display: block;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    right: 48px;
-    background-image: url(../assets/icons/hamburger-icon.svg);
-  }
-  .burger:hover {
-    cursor: pointer;
-  }
-  .top-nav-list {
-    display: none;
-  }      
 
   /* HERO */
   .hero {
@@ -50,7 +23,7 @@
     font-size: 7.2rem;
     margin-top: 50px;
     margin-bottom: 13px;
-    }          
+  }
   .hero-text {
     width: 339px;
     margin-bottom: 24px;
@@ -76,7 +49,7 @@
   .about-text {
     width: 600px;
   }
-  .welcome-img img{
+  .welcome-img img {
     width: 640px;
     height: 438px;
   }
@@ -124,25 +97,25 @@
   .animals-live-inner {
     width: 600px;
     overflow: hidden;
-  }    
+  }
   .main-title {
     margin: 100px auto 30px auto;
     padding: 0;
     width: 394px;
-  } 
+  }
   .main-text {
     width: 600px;
-  } 
+  }
   .slider {
     margin-top: 50px;
   }
   .arrows {
     display: none;
-  }    
+  }
   .animals-list {
     grid-template-columns: auto auto auto auto auto auto auto auto;
     grid-gap: 20px;
-  }    
+  }
   .animal-card {
     width: 290px;
     height: 600px;
@@ -183,11 +156,11 @@
   .card7 .caption-button {
     padding-top: 3px;
   }
-    
-   /* PAY AND FEED */
-   .pay-and-feed {
+
+  /* PAY AND FEED */
+  .pay-and-feed {
     margin-top: 100px;
-   }  
+  }
   .pay-and-feed-inner {
     width: 640px;
     padding-top: 80px;
@@ -204,7 +177,7 @@
   .article-paf {
     flex-direction: column;
     align-items: center;
-  }  
+  }
   .line {
     width: 563px;
   }
@@ -223,14 +196,14 @@
   .article-img > img:first-of-type {
     width: 640px;
     height: 417px;
-  } 
-  .paf-1 .article-img{
+  }
+  .paf-1 .article-img {
     margin: 0 0 50px 0;
   }
-  .paf-2 .article-img{
+  .paf-2 .article-img {
     margin-right: 0;
   }
-  .paf-3 .article-img{
+  .paf-3 .article-img {
     margin-right: 0;
   }
   .paf-2 .article-icon {
@@ -242,7 +215,7 @@
   .article-info {
     margin: 0;
     text-align: center;
-  } 
+  }
   .article-title {
     margin-left: 50px;
     margin-bottom: 29px;
@@ -260,10 +233,10 @@
   }
   .article-text {
     width: 600px;
-  }  
+  }
   .paf-1 {
     margin-bottom: 45px;
-  } 
+  }
   .paf-2 {
     margin-bottom: 50px;
   }
@@ -273,17 +246,17 @@
     padding-left: 60px;
     letter-spacing: 1.1px;
   }
-     
+
   /* COMMENTS */
   .comments {
     height: 1651px;
     background-image: url("../assets/images/640-comments-bg-img.png");
-  }  
+  }
   .comments-inner {
     width: 640px;
     height: 1651px;
     position: relative;
-  } 
+  }
   .title-area {
     margin-top: 60px;
     margin-left: 20px;
@@ -299,7 +272,7 @@
     overflow: hidden;
     grid-template-columns: auto auto auto auto;
     grid-gap: 20px;
-  } 
+  }
   .block-card {
     width: 523px;
     height: 371px;
@@ -307,7 +280,7 @@
     padding-left: 30px;
     padding-right: 30px;
     align-items: center;
-  } 
+  }
   .quotes {
     position: absolute;
     top: 46px;
@@ -317,14 +290,14 @@
     width: 220px;
     text-align: center;
     margin: 7px 0 30px 0;
-  }  
+  }
   .comments-text {
     width: 463px;
     text-align: center;
   }
   .comments-arrows {
     display: none;
-  } 
+  }
   .comments-button {
     width: 368px;
     margin-left: 20px;
@@ -337,7 +310,7 @@
   }
   .animals-feed-title {
     margin: 80px 0 30px 0;
-  } 
+  }
   .animals-feed-text {
     width: 600px;
     margin-left: 0;
@@ -345,7 +318,7 @@
   .animals-feed-imgs {
     margin-top: 67px;
     margin-bottom: 0;
-  }  
+  }
   .animals-feed-img {
     display: flex;
     flex-direction: row;
@@ -355,13 +328,13 @@
   .animals-feed-img img {
     width: 70%;
     height: 297px;
-  }  
+  }
   .afc1,
   .afc3,
   .afc4,
   .afc5 {
     display: none;
-  }  
+  }
   .animals-feed-card {
     position: relative;
     width: 600px;
@@ -371,12 +344,12 @@
     width: 415px;
     margin: 66px 0 0 0;
     padding-right: 0;
-  } 
+  }
   .animals-feed-card-info {
     width: 260px;
     margin: 0;
     padding-left: 7px;
-  }    
+  }
   .feed-btn {
     position: absolute;
     top: 197px;
@@ -413,8 +386,8 @@
     background-image: url("../assets/images/1200-feed-bottom-img.png");
     background-size: cover;
   }
-  
-    /* FOOTER */
+
+  /* FOOTER */
   .footer {
     position: relative;
     height: 545px;
@@ -431,13 +404,13 @@
   .logos {
     grid-gap: 80px;
     margin-bottom: 50px;
-  } 
+  }
   .footer-nav-list {
     width: 445px;
     margin: 0 35px 47px 35px;
     grid-template-columns: 68px 44px 54px 120.34px;
     grid-gap: 53px;
-  }  
+  }
   .bottom-line {
     position: absolute;
     left: 0;

@@ -8,20 +8,6 @@
     height: 100vh;
     overflow: auto;
   }
-  
-  /* HEADER */
-  .header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  .header-inner {
-    width: 280px;
-    margin: 0 auto;
-  }
-  .burger {
-    right: 32px;
-  }
 
   /* MAIN */
   .main-inner {
@@ -40,10 +26,10 @@
     height: 234px;
     margin-top: 0;
     background-image: url("../assets/icons/320-map.svg");
-  }  
+  }
   .map {
     margin: 22px 0 53px 0;
-  } 
+  }
   .map img {
     width: 46px;
     height: 61px;
@@ -87,7 +73,7 @@
     position: absolute;
     left: 81.5%;
     top: 60.2%;
-  }     
+  }
 
   /* FOOTER */
   .footer {
@@ -100,7 +86,7 @@
   .logos {
     margin-bottom: 29px;
     grid-template-columns: auto;
-    grid-gap: 30px;  
+    grid-gap: 30px;
     align-items: center;
   }
   .main-footer-logo,
@@ -140,7 +126,7 @@
     margin-top: 58px;
     display: grid;
     grid-template-columns: auto;
-    grid-gap: 30px;  
+    grid-gap: 30px;
     align-items: center;
   }
   .copyright {
