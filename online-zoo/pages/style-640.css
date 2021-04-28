@@ -1,9 +1,4 @@
-@media screen and (max-width: 640px) {
-  body {
-    min-width: 640px;
-    width: 640px;
-    max-width: 640px;
-  }
+@media screen and (min-width: 640px) and (max-width: 1199px) {
   .page-wrapper {
     height: 100vh;
     overflow: auto;
@@ -12,11 +7,12 @@
   /* HERO */
   .hero {
     height: 644px;
-    background-image: url("../assets/images/640-hero-bg-image.png");
+    background: url("../assets/images/640-hero-bg-image.png") no-repeat left
+      bottom;
     background-size: 100%;
   }
   .hero-inner {
-    width: 600px;
+    max-width: 600px;
   }
   .hero-title {
     width: 600px;
@@ -36,14 +32,28 @@
 
   /* WELCOME + ABOUT */
   .about-block-inner {
-    width: 640px;
+    max-width: 640px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+  .welcome,
+  .about {
+    flex-direction: column;
   }
   .welcome {
-    margin-bottom: 46px;
+    margin-bottom: 44px;
+  }
+  .img-area {
+    order: 1;
   }
   .text-area {
     width: 600px;
     margin: 0 auto;
+    order: 2;
+  }
+  .welcome-title {
+    margin-top: 28px;
+    margin-bottom: 35px;
   }
   .welcome-text,
   .about-text {
@@ -58,7 +68,8 @@
     height: 425px;
   }
   .about-title {
-    margin-top: 454px;
+    margin-top: 26px;
+    margin-bottom: 27px;
   }
   .about-text-area {
     padding: 0;
@@ -69,10 +80,14 @@
     height: 459px;
   }
   .quick-donate-inner {
-    width: 600px;
+    max-width: 600px;
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+  .donation-title {
+    width: 578px;
+    margin-bottom: 30px;
   }
   .donation-text {
     width: 578px;
@@ -95,7 +110,7 @@
 
   /* MEET SOME OUR PETS  */
   .animals-live-inner {
-    width: 600px;
+    max-width: 600px;
     overflow: hidden;
   }
   .main-title {
@@ -108,6 +123,7 @@
   }
   .slider {
     margin-top: 50px;
+    margin-bottom: 50px;
   }
   .arrows {
     display: none;
@@ -115,6 +131,7 @@
   .animals-list {
     grid-template-columns: auto auto auto auto auto auto auto auto;
     grid-gap: 20px;
+    margin-bottom: 0;
   }
   .animal-card {
     width: 290px;
@@ -162,7 +179,7 @@
     margin-top: 100px;
   }
   .pay-and-feed-inner {
-    width: 640px;
+    max-width: 640px;
     padding-top: 80px;
   }
   .pay-and-feed-title {
@@ -251,15 +268,22 @@
   .comments {
     height: 1651px;
     background-image: url("../assets/images/640-comments-bg-img.png");
+    background-size: cover;
   }
   .comments-inner {
-    width: 640px;
+    max-width: 640px;
     height: 1651px;
     position: relative;
   }
   .title-area {
     margin-top: 60px;
     margin-left: 20px;
+  }
+  .title-comments-title {
+    margin-bottom: 0;
+  }
+  .text-comments-title {
+    margin-top: 15px;
   }
   .comments-blocks {
     overflow: hidden;
@@ -306,7 +330,7 @@
 
   /* CARE FOR THE ANIMALS YOU LOVE  */
   .animals-feed-inner {
-    width: 600px;
+    max-width: 600px;
   }
   .animals-feed-title {
     margin: 80px 0 30px 0;
@@ -357,6 +381,7 @@
   }
   .dots {
     display: block;
+    margin-top: 40px;
   }
   .dot {
     cursor: pointer;
@@ -385,50 +410,5 @@
     margin: 98px 0;
     background-image: url("../assets/images/1200-feed-bottom-img.png");
     background-size: cover;
-  }
-
-  /* FOOTER */
-  .footer {
-    position: relative;
-    height: 545px;
-  }
-  .footer-inner {
-    width: 600px;
-    padding-top: 50px;
-  }
-  .footer-top,
-  .footer-bottom {
-    flex-direction: column;
-    align-items: center;
-  }
-  .logos {
-    grid-gap: 80px;
-    margin-bottom: 50px;
-  }
-  .footer-nav-list {
-    width: 445px;
-    margin: 0 35px 47px 35px;
-    grid-template-columns: 68px 44px 54px 120.34px;
-    grid-gap: 53px;
-  }
-  .bottom-line {
-    position: absolute;
-    left: 0;
-    top: 346px;
-    width: 640px;
-    margin: 0;
-  }
-  .footer-bottom {
-    margin-top: 100px;
-  }
-  .footer-socials-list {
-    grid-gap: 50px;
-  }
-  .footer-socials {
-    order: -1;
-  }
-  .copyrights {
-    margin-top: 28px;
-    margin-left: 50px;
   }
 }

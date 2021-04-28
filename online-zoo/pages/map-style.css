@@ -1,89 +1,9 @@
-/* general style settings */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-:root {
-  --black: #000;
-  --navy: #20113d;
-  --white: #fff;
-  --orange: #f58021;
-  --turquoise: #00a092;
-}
-html {
-  font-size: 10px;
-}
-body {
-  min-width: 1920px;
-  margin: 0 auto;
-  padding: 0;
-  font-family: "Montserrat", sans-serif;
-}
 .page-wrapper {
   overflow: hidden;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-ul {
-  list-style-type: none;
-}
-a {
-  text-decoration: none;
-  text-transform: uppercase;
-}
-button {
-  padding: 26px 0 26px 35px;
-  border-radius: 5px;
-  border: none;
-  text-transform: uppercase;
-}
-li:hover,
-button:hover,
-form:hover {
-  cursor: pointer;
-}
-.no-outline:visited,
-.no-outline:hover,
-.no-outline:focus,
-.no-outline:active {
-  outline: none;
-}
-.h1 {
-  margin: 0;
-  color: var(--black);
-  text-transform: none;
-  font-size: 2rem;
-  font-weight: 700;
-}
-.h2-title {
-  font-size: 5.4rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: var(--turquoise);
-}
-.subheader {
-  font-size: 2.6rem;
-  line-height: 130%;
-  font-weight: 500;
-  color: var(--white);
-}
-.body-text {
-  margin: 0;
-  font-size: 1.8rem;
-  line-height: 150%;
-  color: var(--black);
-}
-.btn-font {
-  font-size: 1.8rem;
-  font-weight: 600;
-}
-.arrow {
-  margin-left: 10px;
-}
-
-/* MAIN */
 .main {
   width: 100%;
   margin: 0;
@@ -162,97 +82,195 @@ form:hover {
   cursor: pointer;
 }
 
-/* FOOTER */
-.footer {
-  width: 100%;
-  margin-top: auto;
-  background-color: var(--navy);
+/* M E D I A */
+
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  .main-inner {
+    max-width: 1200px;
+  }
+  .main-title {
+    margin-top: 30px;
+  }
+  .map {
+    margin: 16px 0 100px 0;
+  }
+  .map-img {
+    width: 1198px;
+    height: 777px;
+    background-image: url("../assets/icons/1200-map.svg");
+  }
+  .panda-location {
+    position: absolute;
+    left: 69.5%;
+    top: 27.8%;
+  }
+  .lemur-location {
+    position: absolute;
+    left: 54.5%;
+    top: 58%;
+  }
+  .gorilla-location {
+    position: absolute;
+    left: 46.9%;
+    top: 45%;
+  }
+  .eagles-location {
+    position: absolute;
+    left: 8.9%;
+    top: 35.2%;
+  }
+  .crocodile-location {
+    position: absolute;
+    left: 18.8%;
+    top: 38%;
+  }
+  .lion-location {
+    position: absolute;
+    left: 38.5%;
+    top: 41.2%;
+  }
+  .tiger-location {
+    position: absolute;
+    left: 69.7%;
+    top: 49.8%;
+  }
+  .koala-location {
+    position: absolute;
+    left: 79.1%;
+    top: 60.8%;
+  }
 }
-.footer-inner {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 70px 0 36px 0;
+
+@media screen and (min-width: 640px) and (max-width: 1199px) {
+  .page-wrapper {
+    height: 100vh;
+    overflow: auto;
+  }
+  .main-inner {
+    max-width: 640px;
+  }
+  .map-img {
+    margin-top: 67px;
+    width: 640px;
+    height: 415px;
+    background-image: url("../assets/icons/640-map.svg");
+  }
+  .main-title {
+    font-size: 42px;
+  }
+  .map img {
+    width: 60px;
+    height: 75px;
+  }
+  .panda-location {
+    position: absolute;
+    left: 70.8%;
+    top: 33.2%;
+  }
+  .lemur-location {
+    position: absolute;
+    left: 55.2%;
+    top: 62.1%;
+  }
+  .gorilla-location {
+    position: absolute;
+    left: 47.6%;
+    top: 48.8%;
+  }
+  .eagles-location {
+    position: absolute;
+    left: 9.9%;
+    top: 37.6%;
+  }
+  .crocodile-location {
+    position: absolute;
+    left: 19.5%;
+    top: 41.2%;
+  }
+  .lion-location {
+    position: absolute;
+    left: 40.2%;
+    top: 46.4%;
+  }
+  .tiger-location {
+    position: absolute;
+    left: 71%;
+    top: 54.8%;
+  }
+  .koala-location {
+    position: absolute;
+    left: 78.5%;
+    top: 64.1%;
+  }
 }
-.footer-top,
-.footer-bottom,
-.copyrights {
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.logos {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 65px;
-}
-.logos p {
-  margin: 0;
-  padding: 0;
-}
-.footer-nav-list {
-  width: 426px;
-  margin: 0 100px;
-  padding: 0;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 46px;
-}
-.footer-nav-item {
-  margin: 0;
-  padding: 0;
-}
-.footer-nav-item:hover,
-.footer-nav-item:active {
-  cursor: pointer;
-  text-decoration: underline;
-}
-.footer-nav-item-ref {
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: var(--white);
-}
-.volunteers-btn {
-  width: 359px;
-  height: 74px;
-  padding-left: 33.86px;
-  display: flex;
-  align-items: center;
-  border: 1px solid var(--white);
-  background-color: rgba(0, 0, 0, 0);
-  color: var(--white);
-  letter-spacing: 0.5px;
-}
-.volunteers-btn:hover,
-.volunteers-btn:active {
-  background-color: var(--turquoise);
-}
-.bottom-line {
-  width: 1400px;
-  margin: 70px 0 37px 0;
-  text-align: center;
-  color: var(--white);
-}
-.copyright {
-  margin: 0;
-  padding: 0 50px 0 0;
-  color: var(--white);
-}
-.footer-socials-list {
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 40px;
-}
-.footer-social-item,
-.footer-social-icon {
-  margin: 0;
-}
-.footer-social-icon img {
-  transition: 0.5s;
-}
-.footer-social-icon img:hover {
-  transform: scale(1.2);
+
+@media screen and (min-width: 320px) and (max-width: 639px) {
+  .page-wrapper {
+    height: 100vh;
+    overflow: auto;
+  }
+  .main-inner {
+    max-width: 320px;
+  }
+  .main-title {
+    width: 300px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-transform: none;
+    font-size: 26px;
+  }
+  .map-img {
+    width: 300px;
+    height: 234px;
+    margin-top: 0;
+    background-image: url("../assets/icons/320-map.svg");
+  }
+  .map {
+    margin: 22px 0 53px 0;
+  }
+  .map img {
+    width: 46px;
+    height: 61px;
+  }
+  .panda-location {
+    position: absolute;
+    left: 67.4%;
+    top: 29.6%;
+  }
+  .lemur-location {
+    position: absolute;
+    left: 54.5%;
+    top: 56.5%;
+  }
+  .gorilla-location {
+    position: absolute;
+    left: 46.3%;
+    top: 47.2%;
+  }
+  .eagles-location {
+    position: absolute;
+    left: 2.8%;
+    top: 29%;
+  }
+  .crocodile-location {
+    position: absolute;
+    left: 15%;
+    top: 37%;
+  }
+  .lion-location {
+    position: absolute;
+    left: 37.8%;
+    top: 38.4%;
+  }
+  .tiger-location {
+    position: absolute;
+    left: 73.2%;
+    top: 48.6%;
+  }
+  .koala-location {
+    position: absolute;
+    left: 81.5%;
+    top: 60.2%;
+  }
 }

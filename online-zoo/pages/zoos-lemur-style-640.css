@@ -1,9 +1,4 @@
-@media screen and (max-width: 640px) {
-  body {
-    min-width: 640px;
-    width: 640px;
-    max-width: 640px;
-  }
+@media screen and (min-width: 640px) and (max-width: 1199px) {
   .page-wrapper {
     height: 100vh;
     overflow: auto;
@@ -66,7 +61,7 @@
 
   /* LIVE CAMS SECTION */
   .cams-inner {
-    width: 600px;
+    max-width: 600px;
   }
   .cams-title {
     width: 445px;
@@ -192,7 +187,7 @@
 
   /* INFO */
   .info-inner {
-    width: 600px;
+    max-width: 600px;
   }
   .did-u-know {
     width: 600px;
@@ -231,50 +226,5 @@
   .info-text {
     width: 600px;
     margin-top: 46px;
-  }
-
-  /* FOOTER */
-  .footer {
-    position: relative;
-    height: 545px;
-  }
-  .footer-inner {
-    width: 600px;
-    padding-top: 50px;
-  }
-  .footer-top,
-  .footer-bottom {
-    flex-direction: column;
-    align-items: center;
-  }
-  .logos {
-    grid-gap: 80px;
-    margin-bottom: 50px;
-  }
-  .footer-nav-list {
-    width: 445px;
-    margin: 0 35px 47px 35px;
-    grid-template-columns: 68px 44px 54px 120.34px;
-    grid-gap: 53px;
-  }
-  .bottom-line {
-    position: absolute;
-    left: 0;
-    top: 346px;
-    width: 640px;
-    margin: 0;
-  }
-  .footer-bottom {
-    margin-top: 100px;
-  }
-  .footer-socials-list {
-    grid-gap: 50px;
-  }
-  .footer-socials {
-    order: -1;
-  }
-  .copyrights {
-    margin-top: 28px;
-    margin-left: 50px;
   }
 }

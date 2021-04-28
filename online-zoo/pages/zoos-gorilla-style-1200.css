@@ -1,10 +1,4 @@
-@media screen and (max-width: 1200px) {
-  body {
-    min-width: 1200px;
-    width: 1200px;
-    max-width: 1200px;
-  }
-
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
   /* SIDEBAR */
   .sidebar {
     width: 115px;
@@ -64,7 +58,7 @@
 
   /* LIVE CAMS SECTION */
   .cams-inner {
-    width: 1120px;
+    max-width: 1120px;
     margin: 0;
     align-items: flex-start;
   }
@@ -148,7 +142,7 @@
 
   /* INFO */
   .info-inner {
-    width: 1120px;
+    max-width: 1120px;
     padding: 0;
   }
   .did-u-know {
@@ -176,33 +170,5 @@
   .photo img {
     width: 456px;
     height: 456px;
-  }
-
-  /* FOOTER */
-  .footer {
-    position: relative;
-    height: 329px;
-  }
-  .footer-inner {
-    max-width: 1120px;
-  }
-  .logos {
-    grid-gap: 30px;
-  }
-  .footer-nav-list {
-    width: 347px;
-    margin: 0 35px;
-    grid-template-columns: 68px 44px 54px 120.34px;
-    grid-gap: 20px;
-  }
-  .bottom-line {
-    position: absolute;
-    left: 0;
-    top: 214px;
-    width: 1200px;
-    margin: 0;
-  }
-  .footer-bottom {
-    margin-top: 108px;
   }
 }

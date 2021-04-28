@@ -1,9 +1,4 @@
-@media screen and (max-width: 320px) {
-  body {
-    min-width: 320px;
-    width: 320px;
-    max-width: 320px;
-  }
+@media screen and (min-width: 320px) and (max-width: 639px) {
   .page-wrapper {
     height: 100vh;
     overflow: auto;
@@ -68,7 +63,7 @@
 
   /* LIVE CAMS SECTION */
   .cams-inner {
-    width: 302px;
+    max-width: 302px;
     justify-content: flex-start;
   }
   .cams-title {
@@ -140,7 +135,7 @@
     margin: 285px 0 20px 0;
   }
   .donate-inner {
-    width: 300px;
+    max-width: 300px;
     margin-left: 12px;
     margin-right: 8px;
     padding-top: 50px;
@@ -181,7 +176,7 @@
 
   /* INFO */
   .info-inner {
-    width: 320px;
+    max-width: 320px;
   }
   .did-u-know {
     width: 300px;
@@ -286,63 +281,5 @@
   .info-text {
     width: 300px;
     margin: 322px 10px 0 10px;
-  }
-
-  /* FOOTER */
-  .footer {
-    height: 710px;
-  }
-  .footer-inner {
-    width: 300px;
-    padding-top: 50px;
-  }
-  .logos {
-    margin-bottom: 29px;
-    grid-template-columns: auto;
-    grid-gap: 30px;
-    align-items: center;
-  }
-  .main-footer-logo,
-  .yem-logo,
-  .rsschool-logo {
-    display: flex;
-    justify-content: center;
-  }
-  .footer-nav {
-    width: 300px;
-  }
-  .footer-nav-list {
-    width: 300px;
-    margin: 0;
-    grid-template-columns: 60px 39px 48px 107px;
-    grid-gap: 15px;
-  }
-  .footer-nav-item-ref {
-    font-size: 16px;
-  }
-  .bottom-line {
-    top: 489px;
-    width: 320px;
-  }
-  .volunteers-btn {
-    width: 299px;
-    height: 45px;
-    margin-top: 32px;
-    padding: 9px 0 9px 31px;
-    text-transform: none;
-    letter-spacing: 0.8px;
-  }
-  .footer-bottom {
-    margin-top: 30px;
-  }
-  .copyrights {
-    margin-top: 58px;
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap: 30px;
-    align-items: center;
-  }
-  .copyright {
-    text-align: center;
   }
 }

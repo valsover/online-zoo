@@ -1,13 +1,6 @@
-@media screen and (max-width: 1200px) {
-  body {
-    min-width: 1200px;
-    width: 1200px;
-    max-width: 1200px;
-  }
-
-  /* MAIN */
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
   .main-section {
-    width: 1120px;
+    max-width: 1120px;
     margin: auto;
     margin: 47px 0 100px 0;
     flex-direction: column;
@@ -33,33 +26,5 @@
   }
   .form-btn {
     margin-top: 17px;
-  }
-
-  /* FOOTER */
-  .footer {
-    position: relative;
-    height: 329px;
-  }
-  .footer-inner {
-    max-width: 1120px;
-  }
-  .logos {
-    grid-gap: 30px;
-  }
-  .footer-nav-list {
-    width: 347px;
-    margin: 0 35px;
-    grid-template-columns: 68px 44px 54px 120.34px;
-    grid-gap: 20px;
-  }
-  .bottom-line {
-    position: absolute;
-    left: 0;
-    top: 214px;
-    width: 1200px;
-    margin: 0;
-  }
-  .footer-bottom {
-    margin-top: 108px;
   }
 }

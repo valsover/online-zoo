@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --black: #000;
+  --navy: #20113d;
+  --white: #fff;
+  --orange: #f58021;
+  --turquoise: #00a092;
+}
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+button {
+  padding: 26px 0 26px 35px;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+  transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+}
+li:hover,
+button:hover,
+form:hover {
+  cursor: pointer;
+}
+.no-outline:visited,
+.no-outline:hover,
+.no-outline:focus,
+.no-outline:active {
+  outline: none;
+}
+.h1 {
+  margin: 0;
+  color: var(--black);
+  text-transform: none;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.h2-title {
+  font-size: 5.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--turquoise);
+}
+.subheader {
+  font-size: 2.6rem;
+  line-height: 130%;
+  font-weight: 500;
+  color: var(--white);
+}
+.body-text {
+  margin: 0;
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: var(--black);
+}
+.btn-font {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.arrow {
+  margin-left: 10px;
+}

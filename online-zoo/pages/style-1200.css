@@ -1,18 +1,13 @@
-@media screen and (max-width: 1200px) {
-  body {
-    min-width: 1200px;
-    width: 1200px;
-    max-width: 1200px;
-  }
-
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
   /* HERO */
   .hero {
     height: 690px;
-    background-image: url("../assets/images/1200-hero-bg-image.png");
+    background: url("../assets/images/1200-hero-bg-image.png") no-repeat left
+      bottom;
     background-size: 100%;
   }
   .hero-inner {
-    width: 1120px;
+    max-width: 1120px;
   }
   .hero-title {
     margin-top: 100px;
@@ -25,7 +20,7 @@
 
   /* WELCOME + ABOUT */
   .about-block-inner {
-    width: 1000px;
+    max-width: 1000px;
     margin-top: 100px;
     margin-bottom: 100px;
   }
@@ -67,7 +62,7 @@
     height: 313px;
   }
   .quick-donate-inner {
-    width: 1000px;
+    max-width: 1000px;
     align-items: flex-start;
   }
   .donation-info {
@@ -82,7 +77,7 @@
 
   /* MEET SOME OUR PETS  */
   .animals-live-inner {
-    width: 1120px;
+    max-width: 1120px;
   }
   .main-title {
     margin: 100px 0 30px 0;
@@ -133,7 +128,7 @@
 
   /* PAY AND FEED */
   .pay-and-feed-inner {
-    width: 1120px;
+    max-width: 1120px;
     margin: 0 auto;
     padding-top: 148px;
   }
@@ -203,9 +198,10 @@
   .comments {
     height: 1880px;
     background-image: url("../assets/images/1200-comments-bg-img.png");
+    background-size: cover;
   }
   .comments-inner {
-    width: 1120px;
+    max-width: 1120px;
     height: 1880px;
   }
   .title-area {
@@ -230,7 +226,7 @@
 
   /* CARE FOR THE ANIMALS YOU LOVE  */
   .animals-feed-inner {
-    width: 930px;
+    max-width: 930px;
     margin-bottom: 3px;
   }
   .animals-feed-title {
@@ -280,33 +276,5 @@
     margin: 150px 0 147px 0;
     background-image: url("../assets/images/1200-feed-bottom-img.png");
     background-size: cover;
-  }
-
-  /* FOOTER */
-  .footer {
-    position: relative;
-    height: 329px;
-  }
-  .footer-inner {
-    width: 1120px;
-  }
-  .logos {
-    grid-gap: 30px;
-  }
-  .footer-nav-list {
-    width: 347px;
-    margin: 0 35px;
-    grid-template-columns: 68px 44px 54px 120.34px;
-    grid-gap: 20px;
-  }
-  .bottom-line {
-    position: absolute;
-    left: 0;
-    top: 214px;
-    width: 1200px;
-    margin: 0;
-  }
-  .footer-bottom {
-    margin-top: 108px;
   }
 }
