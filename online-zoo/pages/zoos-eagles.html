@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="basic.css" />
-    <link rel="stylesheet" href="zoos-eagles-style.css" />
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="footer.css" />
-    <link rel="stylesheet" href="zoos-eagles-style-1200.css" />
-    <link rel="stylesheet" href="zoos-eagles-style-640.css" />
-    <link rel="stylesheet" href="zoos-eagles-style-320.css" />
+    <link rel="stylesheet" href="zoos.css" />
+    <link rel="stylesheet" href="zoos-eagles.css" />
+    <link rel="stylesheet" href="zoos-eagles-adaptive.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
@@ -103,32 +102,84 @@
               <p class="live-sign">
                 <img src="../assets/icons/live-sign.svg" alt="" />
               </p>
-              <button class="arrows"></button>
+              <button class="arrows no-outline"></button>
             </div>
             <div class="row2 center">
               <div class="circle first">
-                <p class="eagles-fig"></p>
+                <p class="eagles-fig animal-fig"></p>
+                <p class="sidebar__text hidden">
+                  Watch The Bald Eagles Nest from West End cam
+                </p>
+              </div>
+            </div>
+            <div class="row2_next hidden center">
+              <div class="circle second">
+                <a href="#">
+                  <p class="coala-fig animal-fig"></p>
+                </a>
+                <p class="sidebar__text hidden">
+                  A wonderful serenity has taken possession
+                </p>
               </div>
             </div>
             <div class="row3 center">
               <div class="circle second">
                 <a href="zoos-gorilla.html">
-                  <p class="gorilla-fig"></p>
+                  <p class="gorilla-fig animal-fig"></p>
                 </a>
+                <p class="sidebar__text hidden">
+                  Livestream from Gorilla Forest Corridor habitat cam
+                </p>
+              </div>
+            </div>
+            <div class="row3_next hidden center">
+              <div class="circle second">
+                <a href="#">
+                  <p class="lion-fig animal-fig"></p>
+                </a>
+                <p class="sidebar__text hidden">
+                  One morning, when Gregor Samsa woke
+                </p>
               </div>
             </div>
             <div class="row4 center">
               <div class="circle third">
                 <a href="zoos-lemur.html">
-                  <p class="lemur-fig"></p>
+                  <p class="lemur-fig animal-fig"></p>
                 </a>
+                <p class="sidebar__text hidden">
+                  The ring-tailed lemurs play in Madagascar, Lemuria Land
+                </p>
+              </div>
+            </div>
+            <div class="row4_next hidden center">
+              <div class="circle second">
+                <a href="#">
+                  <p class="alligator-fig animal-fig"></p>
+                </a>
+                <p class="sidebar__text hidden">
+                  Sed ut perspiciatis unde omnis iste
+                </p>
               </div>
             </div>
             <div class="row5 center">
               <div class="circle fourth">
                 <a href="zoos-panda.html">
-                  <p class="panda-fig"></p>
+                  <p class="panda-fig animal-fig"></p>
                 </a>
+                <p class="sidebar__text hidden">
+                  Watch live from China's Panda Center
+                </p>
+              </div>
+            </div>
+            <div class="row5_next hidden center">
+              <div class="circle second">
+                <a href="#">
+                  <p class="tiger-fig animal-fig"></p>
+                </a>
+                <p class="sidebar__text hidden">
+                  Far far away, behind the word mountains, far
+                </p>
               </div>
             </div>
             <div class="row6">
@@ -156,11 +207,11 @@
             <p class="top-layer">Sam & Lora, the Bald Eagles cam 1</p>
           </div>
           <article class="cams-slider">
-            <h3 class="slider-title">more live views</h3>
+            <h3 class="slider-title">More live views</h3>
             <div class="cams-slider-inner">
               <p class="left-arrow"></p>
               <div class="slider-images">
-                <div class="video2">
+                <div class="video">
                   <iframe
                     width="320"
                     height="209"
@@ -170,13 +221,13 @@
                     allowfullscreen
                   >
                   </iframe>
-                  <p class="slider-top-layer-1"></p>
-                  <p class="live-layer-1">
+                  <p class="slider-top-layer"></p>
+                  <p class="live-layer">
                     cam 1
                     <img src="../assets/icons/camera.svg" alt="" />
                   </p>
                 </div>
-                <div class="video3">
+                <div class="video">
                   <iframe
                     width="320"
                     height="209"
@@ -186,13 +237,13 @@
                     allowfullscreen
                   >
                   </iframe>
-                  <p class="slider-top-layer-2"></p>
-                  <p class="live-layer-2">
+                  <p class="slider-top-layer"></p>
+                  <p class="live-layer">
                     cam 2
                     <img src="../assets/icons/camera.svg" alt="" />
                   </p>
                 </div>
-                <div class="video4">
+                <div class="video">
                   <iframe
                     width="320"
                     height="209"
@@ -202,8 +253,8 @@
                     allowfullscreen
                   >
                   </iframe>
-                  <p class="slider-top-layer-3"></p>
-                  <p class="live-layer-3">
+                  <p class="slider-top-layer"></p>
+                  <p class="live-layer">
                     cam 3
                     <img src="../assets/icons/camera.svg" alt="" />
                   </p>
@@ -411,6 +462,7 @@
         </div>
       </footer>
     </div>
-    <script src="zoos-eagles-script.js"></script>
+    <script src="zoos.js"></script>
+    <script src="header.js"></script>
   </body>
 </html>

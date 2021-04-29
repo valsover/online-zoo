@@ -3,94 +3,111 @@
   display: flex;
   flex-direction: column;
 }
+
+/* LIVE CAMS SECTION */
+.cams {
+  width: 100%;
+  margin: 0;
+  display: flex;
+}
+
 /* SIDEBAR */
 .sidebar {
+  /* вид сайдбара по умолчанию */
   width: 220px;
   height: 846px;
   background-color: var(--navy);
   position: sticky;
   top: 0;
   margin: 0;
+  animation: unstrech 0.8s ease-in-out;
+  -webkit-animation: unstrech 0.8s ease-in-out;
 }
-.sidebar-inner {
+@-webkit-keyframes unstrech {
+  0% {
+    width: 300px;
+  }
+  20% {
+    width: 320px;
+  }
+  40% {
+    width: 300px;
+  }
+  60% {
+    width: 260px;
+  }
+  80% {
+    width: 180px;
+  }
+  100% {
+    width: 220px;
+  }
+}
+@keyframes unstrech {
+  0% {
+    width: 300px;
+  }
+  20% {
+    width: 320px;
+  }
+  40% {
+    width: 300px;
+  }
+  60% {
+    width: 260px;
+  }
+  80% {
+    width: 180px;
+  }
+  100% {
+    width: 220px;
+  }
+}
+.sidebar.opened {
+  /* вид сайдбара после открытия вправо */
+  width: 300px;
+  animation: strech 0.8s ease-in-out;
+  -webkit-animation: strech 0.8s ease-in-out;
+}
+@-webkit-keyframes strech {
+  0% {
+    width: 220px;
+  }
+  40% {
+    width: 280px;
+  }
+  60% {
+    width: 320px;
+  }
+  80% {
+    width: 280px;
+  }
+  100% {
+    width: 300px;
+  }
+}
+@keyframes strech {
+  0% {
+    width: 220px;
+  }
+  40% {
+    width: 280px;
+  }
+  60% {
+    width: 320px;
+  }
+  80% {
+    width: 280px;
+  }
+  100% {
+    width: 300px;
+  }
+}
+.sidebar__inner {
   display: grid;
-  grid-template-rows: auto auto auto auto auto auto;
+  grid-auto-flow: row;
 }
-.live-sign,
-.arrows {
-  position: absolute;
-  margin: 0;
-}
-.arrows {
-  width: 16px;
-  height: 15px;
-  border: none;
-  background-color: rgba(0, 0, 0, 0);
-  background-image: url("../assets/icons/sidebar-more-btn.svg");
-  padding: 0;
-}
-.center {
-  border-bottom: 1px solid var(--white);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.circle {
-  margin: 0;
-  position: relative;
-}
-.first {
-  width: 140px;
-  height: 140px;
-  background-image: url("../assets/icons/ellipse1.svg");
-}
-.second,
-.third,
-.fourth {
-  width: 120px;
-  height: 120px;
-  background-image: url("../assets/icons/ellipse.svg");
-  background-size: 100%;
-}
-.eagles-fig {
-  position: absolute;
-  top: 20px;
-  left: 25px;
-  width: 68px;
-  height: 66px;
-  background-image: url("../assets/icons/ellipce-eagles.svg");
-}
-.panda-fig {
-  position: absolute;
-  top: 21px;
-  left: 16px;
-  width: 88px;
-  height: 64px;
-  background-image: url("../assets/icons/ellipse-panda.svg");
-}
-.gorilla-fig {
-  position: absolute;
-  top: 26.5px;
-  left: 32px;
-  width: 76px;
-  height: 64px;
-  background-image: url("../assets/icons/ellipse-gorilla.svg");
-}
-.lemur-fig {
-  position: absolute;
-  top: 20px;
-  left: 40px;
-  width: 40px;
-  height: 66px;
-  background-image: url("../assets/icons/ellipse-lemur.svg");
-  transform: scale(-1, 1);
-}
-.eagles-fig:hover,
-.panda-fig:hover,
-.lemur-fig:hover {
-  cursor: pointer;
-  filter: drop-shadow(1px 1px 10px var(--white));
-}
+/* вид строк сайдбара по умолчанию: */
 .row1 {
   height: 80px;
   border-bottom: 1px solid var(--white);
@@ -100,16 +117,117 @@
 .row4,
 .row5 {
   height: 171px;
-}
-.arrows {
-  top: 30px;
-  right: 30px;
+  border-bottom: 1px solid var(--white);
 }
 .row6 {
   height: 80px;
   border-bottom: none !important;
 }
+.row2_next.hidden,
+.row3_next.hidden,
+.row4_next.hidden,
+.row5_next.hidden {
+  display: none;
+}
+/* вид строк сайдбара после нажатия на кнопку "вниз": */
+.row2.hidden,
+.row3.hidden,
+.row4.hidden,
+.row5.hidden {
+  display: none;
+}
+.row2_next,
+.row3_next,
+.row4_next,
+.row5_next {
+  display: flex;
+  height: 171px;
+  border-bottom: 1px solid var(--white);
+}
+.center {
+  /* центрирование сожержимого строк*/
+  border-bottom: 1px solid var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* содержимое первой строки по умолчанию: */
+.live-sign,
+.arrows {
+  position: absolute;
+  margin: 0;
+}
+.arrows {
+  /* стрелки-контролы "влево/вправо" */
+  width: 16px;
+  height: 15px;
+  top: 30px;
+  right: 30px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../assets/icons/sidebar-more-btn.svg");
+  padding: 0;
+}
+.arrows.opened {
+  /* вид стрелок после нажатия на них: */
+  background-image: url("../assets/icons/sidebar-less-btn.svg");
+}
+/* содержимое остальных строк по умолчанию: */
+.circle {
+  margin: 0;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  background-image: url("../assets/icons/ellipse.svg");
+  background-size: 100%;
+}
+.first {
+  width: 140px;
+  height: 140px;
+  background-image: url("../assets/icons/ellipse1.svg");
+}
+/* содержимое остальных строк после нажатия на стрелки "влево/вправо": */
+.circle.opened {
+  width: 300px !important;
+  height: 171px !important;
+  padding-left: 25px;
+  padding-right: 10px;
+  background-image: none !important;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+}
+@keyframes opacitiOn {
+  /* анимация для появления фигур животных в сайдбаре */
+  from {
+    top: -100%;
+    opacity: 0;
+  }
+  to {
+    top: 26px;
+    opacity: 1;
+  }
+}
+.animal-fig:hover {
+  /* эффекты наведения для фигурок животныхъ */
+  cursor: pointer;
+  filter: drop-shadow(1px 1px 10px var(--white));
+}
+.sidebar__text {
+  /* текст рядом с фигуркой животного */
+  display: block;
+  width: 176px;
+  margin: 0;
+  font-size: 18px;
+  color: var(--white);
+  text-transform: none;
+}
+.sidebar__text.hidden {
+  display: none;
+}
 .down {
+  /* Стрелка-контрол "вниз"/карусель животных */
   width: 15px;
   height: 9px;
   margin: 0;
@@ -118,13 +236,11 @@
   left: 103px;
   background-image: url("../assets/icons/sidebar-down-btn.svg");
 }
-
-/* LIVE CAMS SECTION */
-.cams {
-  width: 100%;
-  margin: 0;
-  display: flex;
+.down.opened {
+  left: 50%;
 }
+
+/* CAMS-INNER SECTION */
 .cams-inner {
   position: relative;
   width: 1400px;
@@ -134,8 +250,12 @@
   align-items: center;
   justify-content: space-between;
 }
+.cams-inner.side-bar {
+  /* размер полей при открытии сайдбара */
+  margin: 0 0 0 80px;
+}
 .cams-title {
-  margin: 54px 0 50px 0;
+  margin: 54px 10px 50px 0;
 }
 .main-video {
   position: relative;
@@ -144,6 +264,7 @@
   border: none;
 }
 .transparent-layer {
+  /* прозрачный слой поверх видео */
   position: absolute;
   margin: 0;
   width: 1400px;
@@ -153,13 +274,13 @@
   background-color: rgba(0, 0, 0, 0);
 }
 .top-layer {
+  /* слой с заголовками поверх видео */
   position: absolute;
   margin: 12px;
-  padding-left: 4px;
+  padding-left: 5px;
   line-height: 38px;
   letter-spacing: 0.4px;
-  width: 536px;
-  height: 40px;
+  height: 45px;
   top: 0;
   left: 0;
   background-color: var(--black);
@@ -178,7 +299,7 @@
   align-items: center;
   background-color: var(--orange);
   color: var(--white);
-  letter-spacing: 1.1px;
+  letter-spacing: 1px;
 }
 .donate-now-btn:hover,
 .donate-now-btn:active {
@@ -190,7 +311,7 @@
   align-items: center;
 }
 .slider-title {
-  margin: 98px 0 30px 0;
+  margin: 97px 0 29px 0;
   font-size: 4.2rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -205,16 +326,14 @@
 }
 .left-arrow,
 .right-arrow {
-  margin: 0 0 8px 0;
-}
-.left-arrow {
   width: 80px;
   height: 74px;
+  margin: 0 0 3px 0;
+}
+.left-arrow {
   background-image: url("../assets/icons/slider-arrow-left.svg");
 }
 .right-arrow {
-  width: 80px;
-  height: 74px;
   background-image: url("../assets/icons/slider-arrow-right.svg");
 }
 .left-arrow:hover,
@@ -230,23 +349,17 @@
 .slider-images {
   margin: 0 13px;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-auto-flow: column;
   grid-gap: 40px;
 }
-.video2,
-.video3,
-.video4 {
+.video {
   position: relative;
 }
-.video2 iframe,
-.video3 iframe,
-.video4 iframe {
+.video iframe {
   border-radius: 5px;
   border: none;
 }
-.slider-top-layer-1,
-.slider-top-layer-2,
-.slider-top-layer-3 {
+.slider-top-layer {
   position: absolute;
   margin: 0;
   top: 0;
@@ -255,9 +368,7 @@
   height: 209px;
   background-color: rgba(0, 0, 0, 0);
 }
-.live-layer-1,
-.live-layer-2,
-.live-layer-3 {
+.live-layer {
   position: absolute;
   margin: 0;
   padding-left: 40px;
@@ -278,8 +389,8 @@
 /* DONATE */
 .donate {
   width: 100%;
-  height: 224px;
-  margin: 145px 0;
+  height: 249px;
+  margin: 147px 0;
   background-color: var(--navy);
 }
 .donate-inner {
@@ -299,15 +410,13 @@
   color: var(--white);
 }
 .donation-text {
-  width: 919px;
   color: var(--white);
-  text-indent: 6px;
 }
 .donation-fname {
   font-size: 2.6rem;
   color: var(--white);
   line-height: 130%;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.4px;
 }
 .input-donation {
   margin-top: 10px;
@@ -325,7 +434,7 @@
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0);
   color: var(--white);
-  letter-spacing: 1.2px;
+  letter-spacing: 1px;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -366,11 +475,10 @@ input[type="number"] {
   position: relative;
   width: 1400px;
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 3px;
 }
 .did-u-know {
   width: 1040px;
-  height: 299px;
   margin: 0 0 0 240px;
   border-radius: 5px;
   box-shadow: 0 4px 50px rgba(0, 0, 0, 25%);
@@ -379,7 +487,6 @@ input[type="number"] {
   align-items: center;
 }
 .dun-title {
-  margin: 50px 0 0 0;
   text-align: center;
   font-size: 4.2rem;
   font-weight: 500;
@@ -388,15 +495,14 @@ input[type="number"] {
 }
 .dun-text {
   text-align: center;
-  width: 919px;
-  height: 128px;
-  margin-top: 19px;
+  width: 920px;
+  margin: 20px 50px;
   color: var(--black);
-  line-height: 34px;
+  line-height: 33px;
 }
 .animal-info {
   width: 1160px;
-  margin: 141px 0 149px 0;
+  margin: 140px 0 150px 0;
 }
 .short-info {
   display: flex;
@@ -434,7 +540,6 @@ input[type="number"] {
 .caption-button {
   position: absolute;
   top: -21px;
-  left: 265px;
   width: 240px;
   height: 74px;
   border-radius: 5px;
@@ -444,16 +549,19 @@ input[type="number"] {
   display: flex;
   align-items: center;
   background-color: rgba(0, 0, 0, 0);
+  background: url(../assets/icons/orange-arrow.svg) no-repeat;
+  background-position: 170px 50%;
   color: var(--orange);
   transition: 0.2s;
 }
 .caption-button:hover,
 .caption-button:active {
-  background-color: var(--orange);
   color: var(--white);
+  background: var(--orange) url(../assets/icons/white-arrow.svg) no-repeat;
+  background-position: 170px 50%;
 }
 .info-text {
-  margin: 38px 0 0 0;
+  margin: 41px 0 0 0;
 }
 .photo img {
   border-radius: 5px;

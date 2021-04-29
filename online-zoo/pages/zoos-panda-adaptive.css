@@ -1,0 +1,719 @@
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  /* SIDEBAR */
+  .sidebar {
+    width: 115px;
+    z-index: 9999;
+  }
+  .row1 {
+    width: 115px;
+  }
+  .row2,
+  .row3,
+  .row4,
+  .row5 {
+    width: 115px;
+  }
+  .live-sign {
+    display: none;
+  }
+  .arrows {
+    right: 50px;
+  }
+  .down {
+    left: 50px;
+    bottom: 31px;
+  }
+  .circle {
+    background-image: none;
+  }
+  .eagles-fig {
+    top: 31px;
+    left: 36px;
+    width: 43px;
+    height: 40px;
+    background-image: url("../assets/icons/ellipse-eagles-1200.svg");
+  }
+  .panda-fig {
+    top: 41px;
+    left: 31px;
+    width: 54px;
+    height: 40px;
+    background-image: url("../assets/icons/ellipce-panda-white-1200.svg");
+  }
+  .gorilla-fig {
+    top: 31px;
+    left: 35px;
+    width: 46px;
+    height: 40px;
+    background-image: url("../assets/icons/ellipce-gorilla-1200.svg");
+  }
+  .lemur-fig {
+    top: 30px;
+    left: 45px;
+    width: 24px;
+    height: 40px;
+    background-image: url("../assets/icons/ellipce-lemur-1200.svg");
+    transform: none;
+  }
+
+  /* LIVE CAMS SECTION */
+  .cams-inner {
+    max-width: 1120px;
+    margin: 0;
+    align-items: flex-start;
+  }
+  .cams-title {
+    margin: 30px 0 30px 210px;
+  }
+  .donate-now-btn {
+    margin: 35px 0 100px 0;
+    height: 56px;
+    right: 40px;
+  }
+  .main-video iframe {
+    /* width: 1025px;
+    height: 760px; */
+    margin-left: 20px;
+  }
+  .transparent-layer {
+    width: 1025px;
+    height: 760px;
+    margin-left: 20px;
+  }
+  .top-layer {
+    margin-left: 32px;
+    padding-left: 5px;
+    letter-spacing: 0;
+  }
+  .cams-slider {
+    align-items: flex-start;
+  }
+  .slider-title {
+    margin: 7px 0 30px 330px;
+  }
+  .cams-slider-inner {
+    padding-left: 0;
+    margin-left: 20px;
+  }
+  .left-arrow,
+  .right-arrow {
+    margin: 0 0 18px 0;
+  }
+  .slider-images {
+    grid-gap: 19px;
+  }
+  .video2 iframe,
+  .video3 iframe,
+  .video4 iframe {
+    width: 267px;
+  }
+  .live-layer-1 {
+    padding-left: 14px;
+    padding-top: 2px;
+    width: 250px;
+  }
+  .live-layer-2 {
+    padding-left: 11px;
+    width: 250px;
+  }
+  .live-layer-3 {
+    padding-left: 9px;
+    width: 250px;
+  }
+
+  /* DONATE */
+  .donate {
+    height: 238px;
+    margin: 96px 0;
+    background-color: var(--navy);
+  }
+  .donate-inner {
+    max-width: 1120px;
+    padding: 30px 0;
+  }
+  .donation-title {
+    width: 707px;
+    margin-bottom: 20px;
+  }
+  .donation-text {
+    width: 739px;
+    text-align: start;
+  }
+
+  /* INFO */
+  .info-inner {
+    max-width: 1120px;
+    padding-top: 3px;
+  }
+  .did-u-know {
+    width: 930px;
+    height: 267px;
+    margin-bottom: 35px;
+    margin-left: 95px;
+  }
+  .dun-title {
+    margin-top: 30.5px;
+    padding-left: 39.5px;
+  }
+  .dun-text {
+    width: 740px;
+    padding-right: 7px;
+    letter-spacing: -0.2px;
+  }
+  .animal-info {
+    width: 1120px;
+    margin: 92px 0 100px 0;
+  }
+  .info-text {
+    margin-top: 54px;
+  }
+  .photo {
+    margin-right: 15px;
+  }
+  .photo img {
+    width: 456px;
+    height: 456px;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1199px) {
+  .page-wrapper {
+    height: 100vh;
+    overflow: auto;
+  }
+
+  /* SIDEBAR */
+  .sidebar {
+    width: 78px;
+    height: 500px;
+    z-index: 99;
+    top: 110px;
+  }
+  .row1 {
+    height: 50px;
+    width: 78px;
+  }
+  .live-sign {
+    display: none;
+  }
+  .arrows {
+    right: 30px;
+    top: 17px;
+  }
+  .row2,
+  .row3,
+  .row4,
+  .row5 {
+    height: 100px;
+    width: 78px;
+  }
+  .circle {
+    background-image: none;
+  }
+  .eagles-fig {
+    top: 35px;
+    left: 23px;
+    width: 32px;
+    height: 30px;
+    background-image: url("../assets/icons/ellipse-eagles-1200.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .panda-fig {
+    top: 46px;
+    left: 19px;
+    width: 40px;
+    height: 30px;
+    background-image: url("../assets/icons/ellipce-panda-white-1200.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .gorilla-fig {
+    top: 34px;
+    left: 22px;
+    width: 34px;
+    height: 30px;
+    background-image: url("../assets/icons/ellipce-gorilla-1200.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .lemur-fig {
+    top: 32px;
+    left: 30px;
+    width: 18px;
+    height: 30px;
+    background-image: url("../assets/icons/ellipce-lemur-1200.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .down {
+    left: 32px;
+    bottom: 21px;
+  }
+
+  /* SIDE-PANEL */
+
+  /* LIVE CAMS SECTION */
+  .cams {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .cams-inner {
+    max-width: 542px;
+    margin: 0;
+    align-items: flex-start;
+  }
+  .cams-title {
+    font-size: 42px;
+    margin: 25px 0 21px 70px;
+    letter-spacing: -0.5px;
+  }
+  .donate-now-btn {
+    width: 212px;
+    height: 24px;
+    top: 482px;
+    padding-left: 20px;
+    right: 57px;
+  }
+  .main-video iframe {
+    width: 542px;
+    height: 402px;
+    margin-left: 0;
+  }
+  .transparent-layer {
+    width: 542px;
+    height: 402px;
+    margin-left: 0;
+  }
+  .top-layer {
+    font-size: 15px;
+    width: 530px;
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+  .cams-slider {
+    max-width: 445px;
+    margin-left: 55px;
+    align-items: flex-start;
+  }
+  .slider-title {
+    margin: 85px 0 20px 0;
+    padding-left: 0px;
+    font-size: 26px;
+    text-transform: none;
+    align-self: flex-start;
+  }
+  .cams-slider-inner {
+    padding-left: 0;
+  }
+  .left-arrow,
+  .right-arrow {
+    display: none;
+  }
+  .slider-images {
+    margin: 0;
+  }
+  .video2 iframe,
+  .video3 iframe,
+  .video4 iframe {
+    width: 135px;
+    height: 106px;
+  }
+  .slider-top-layer-1,
+  .slider-top-layer-2,
+  .slider-top-layer-3 {
+    width: 135px;
+    height: 106px;
+  }
+  .live-layer-1,
+  .live-layer-2,
+  .live-layer-3 {
+    padding-left: 12px;
+    padding-top: 2px;
+    width: 72px;
+    height: 26px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .live-layer-1 img,
+  .live-layer-2 img,
+  .live-layer-3 img {
+    width: 12px;
+    height: 12px;
+    padding-left: 3px;
+  }
+
+  /* DONATE */
+  .donate {
+    height: 515px;
+    margin: 77px 0;
+  }
+  .donate-inner {
+    width: 600px;
+    padding: 50px 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .donation-title {
+    width: 565px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .donation-text {
+    width: 599px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .donation-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .input-donation {
+    margin-top: 0;
+    width: 363px;
+    height: 74px;
+  }
+  #donation-amount {
+    width: 363px;
+    padding: 23px 0 26px 40px;
+  }
+  .donation-button {
+    padding-left: 16px;
+  }
+
+  /* INFO */
+  .info-inner {
+    width: 600px;
+  }
+  .did-u-know {
+    width: 600px;
+    height: 354px;
+    margin-left: 0;
+  }
+  .dun-title {
+    margin-top: 23px;
+    padding-left: 0;
+    margin-right: 10px;
+  }
+  .dun-text {
+    width: 540px;
+    margin-top: 32px;
+  }
+  .animal-info {
+    width: 600px;
+    margin: 69px 0 99px 0;
+  }
+  .short-info {
+    width: 600px;
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .photo img {
+    width: 600px;
+    height: 600px;
+  }
+  .photo {
+    order: -1;
+  }
+  .info-list {
+    margin-top: 230px;
+  }
+  .info-text {
+    margin-top: 46px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 639px) {
+  .page-wrapper {
+    height: 100vh;
+    overflow: auto;
+  }
+
+  /* SIDEBAR */
+  .sidebar {
+    width: 50px;
+    height: 300px;
+    position: relative;
+    z-index: 99;
+    top: 0;
+  }
+  .row1,
+  .row2,
+  .row3,
+  .row4,
+  .row5,
+  .row6 {
+    height: 50px;
+    width: 50px;
+  }
+  .arrows {
+    left: 16px;
+    top: 17px;
+  }
+  .eagles-fig {
+    top: 40px;
+    left: 15px;
+    width: 21px;
+    height: 19.7px;
+    background-size: cover;
+    z-index: 98;
+  }
+  .panda-fig {
+    top: 41px;
+    left: 12px;
+    width: 26px;
+    height: 19.5px;
+    background-size: cover;
+    z-index: 98;
+  }
+  .gorilla-fig {
+    top: 39px;
+    left: 14px;
+    width: 22px;
+    height: 19.4px;
+    background-size: cover;
+    z-index: 98;
+  }
+  .lemur-fig {
+    top: 49px;
+    left: 18.5px;
+    width: 12px;
+    height: 20px;
+    background-size: cover;
+  }
+  .down {
+    left: 17px;
+    bottom: 19px;
+  }
+
+  /* LIVE CAMS SECTION */
+  .cams-inner {
+    max-width: 302px;
+    justify-content: flex-start;
+  }
+  .cams-title {
+    font-size: 26px;
+    margin: 20px 0 14px 33px;
+    letter-spacing: 0.5px;
+  }
+  .main-video iframe {
+    width: 270px;
+    height: 200px;
+  }
+  .transparent-layer {
+    width: 270px;
+    height: 200px;
+  }
+  .top-layer {
+    font-size: 7.5px;
+    width: 260px;
+    height: 40px;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 0;
+    line-height: 130%;
+  }
+  .donate-now-btn {
+    width: 300px;
+    height: 45px;
+    top: 453px;
+    padding: 11.5px 0 11.5px 64px;
+    right: 42px;
+  }
+  .left-arrow,
+  .video4,
+  .right-arrow {
+    display: none;
+  }
+  .cams-slider {
+    width: 300px;
+    position: absolute;
+    margin-left: 0;
+    right: 40px;
+    top: 287px;
+  }
+  .slider-title {
+    margin: 0;
+    margin-left: 75px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .cams-slider-inner {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .video2 iframe,
+  .video3 iframe {
+    width: 140px;
+    height: 110px;
+  }
+  .slider-top-layer-1,
+  .slider-top-layer-2 {
+    width: 140px;
+    height: 110px;
+  }
+
+  /* DONATE */
+  .donate {
+    height: 539px;
+    margin: 285px 0 20px 0;
+  }
+  .donate-inner {
+    max-width: 300px;
+    margin-left: 12px;
+    margin-right: 8px;
+    padding-top: 50px;
+  }
+  .donation-title {
+    width: 300px;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+  .donation-text {
+    width: 300px;
+    margin-top: 25px;
+    text-align: center;
+    letter-spacing: 0.3px;
+  }
+  .donation-form {
+    width: 300px;
+    margin-top: 23px;
+  }
+  .input-donation,
+  #donation-amount {
+    width: 300px;
+    height: 45px;
+  }
+  #donation-amount {
+    padding: 11px 0 11px 26px;
+  }
+  #donation-amount::placeholder {
+    font-size: 16px;
+  }
+  .donation-button {
+    width: 67px;
+    height: 43.5px;
+    padding: 10px 10px 13px 13px;
+  }
+
+  /* INFO */
+  .info-inner {
+    max-width: 320px;
+  }
+  .did-u-know {
+    width: 300px;
+    height: 347px;
+    margin: 158px auto;
+  }
+  .dun-title {
+    width: 280px;
+    margin: 30px auto 0 auto;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+  .dun-text {
+    width: 280px;
+    margin-top: 25px;
+    padding-right: 0;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -0.1px;
+  }
+  .animal-info {
+    margin-top: 42px;
+    margin-bottom: 77px;
+  }
+  .photo {
+    width: 320px;
+    height: 320px;
+  }
+  .photo img {
+    width: 320px;
+    height: 320px;
+  }
+  .short-info {
+    width: 300px;
+  }
+  .info-list {
+    width: 238px;
+    margin-top: 41px;
+    margin-left: 10px;
+  }
+  .property {
+    padding-right: 0;
+  }
+  .info-list-item:nth-child(1) {
+    margin-bottom: 52px;
+    line-height: 185%;
+    letter-spacing: 0.5px;
+  }
+  .info-list-item:nth-child(2) {
+    margin-bottom: 46px;
+    line-height: 170%;
+    letter-spacing: 0.4px;
+  }
+  .info-list-item:nth-child(3) {
+    width: 95px;
+    margin-bottom: 49px;
+    line-height: 170%;
+    letter-spacing: 0.5px;
+  }
+  .info-list-item:nth-child(4) {
+    width: 270px;
+    margin-bottom: 65px;
+    line-height: 145%;
+    letter-spacing: 0.3px;
+  }
+  .info-list-item:nth-child(4) > .property::after {
+    content: "\a";
+    white-space: pre;
+  }
+  .info-list-item:nth-child(5) {
+    width: 95px;
+    margin-bottom: 49px;
+    line-height: 170%;
+    letter-spacing: 0.4px;
+  }
+  .info-list-item:nth-child(6) {
+    width: 300px;
+    margin-bottom: 49px;
+    line-height: 170%;
+    letter-spacing: 0.3px;
+  }
+  .info-list-item:nth-child(6) > .property::after {
+    content: "\a";
+    white-space: pre;
+  }
+  .info-list-item:nth-child(7) {
+    width: 200px;
+    margin-bottom: 49px;
+    line-height: 170%;
+    letter-spacing: 0.4px;
+  }
+  .info-list-item:nth-child(7) > .property::after {
+    content: "\a";
+    white-space: pre;
+  }
+  .caption-button {
+    left: 26px;
+    top: 85px;
+  }
+  .info-text {
+    width: 300px;
+    margin: 322px 10px 0 10px;
+  }
+}

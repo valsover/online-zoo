@@ -1,0 +1,192 @@
+/* фигуры животных по умолчанию: */
+.eagles-fig {
+  position: absolute;
+  top: 26px;
+  left: 36px;
+  width: 68px;
+  height: 66px;
+  background-image: url("../assets/icons/ellipce-eagles.svg");
+  animation: opacitiOn 0.5s ease-in-out;
+}
+.gorilla-fig {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 76px;
+  height: 64px;
+  background-image: url("../assets/icons/ellipse-gorilla.svg");
+  animation: opacitiOn 0.5s ease-in-out;
+}
+.lemur-fig {
+  position: absolute;
+  top: 21px;
+  left: 40px;
+  width: 40px;
+  height: 66px;
+  background-image: url("../assets/icons/ellipse-lemur.svg");
+  transform: scale(-1, 1);
+  animation: opacitiOn 0.5s ease-in-out;
+}
+.panda-fig {
+  position: absolute;
+  top: 22px;
+  left: 14px;
+  width: 88px;
+  height: 64px;
+  background-image: url("../assets/icons/ellipse-panda.svg");
+  animation: opacitiOn 0.5s ease-in-out;
+}
+.coala-fig {
+  position: absolute;
+  top: 24px;
+  left: 40px;
+  width: 42.64px;
+  height: 53.92px;
+  background-image: url("../assets/icons/coala.svg");
+  animation: opacitiOn 0.5s ease-in-out;
+}
+.lion-fig {
+  position: absolute;
+  top: 26px;
+  left: 30px;
+  width: 52.04px;
+  height: 46.7px;
+  background-image: url("../assets/icons/lion.svg");
+  animation: opacitiOn 0.5s ease-in-out;
+}
+.alligator-fig {
+  position: absolute;
+  top: 26px;
+  left: 30px;
+  width: 57.76px;
+  height: 46.7px;
+  background-image: url("../assets/icons/alligator.svg");
+  animation: opacitiOn 0.5s ease-in-out;
+}
+.tiger-fig {
+  position: absolute;
+  top: 26px;
+  left: 28px;
+  width: 59.79px;
+  height: 50px;
+  background-image: url("../assets/icons/tiger.svg");
+  animation: opacitiOn 0.5s ease-in-out;
+}
+
+/* фигуры животных в раскрытом состоянии сайдбара: */
+.eagles-fig.opened {
+  position: initial;
+  margin: 0;
+  width: 53.33px;
+  height: 50px;
+  background-image: url("../assets/icons/ellipse-eagles-white-1200.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: opacitiOn 0.5s ease-in-out;
+}
+.gorilla-fig.opened {
+  position: initial;
+  margin: 0;
+  width: 56.67px;
+  height: 50px;
+  background-image: url("../assets/icons/ellipce-gorilla-1200.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: opacitiOn 0.5s ease-in-out;
+}
+.lemur-fig.opened {
+  position: initial;
+  margin: 0 0 0 15px;
+  width: 30px;
+  height: 50px;
+  background-image: url("../assets/icons/ellipce-lemur-1200.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: scale(-1, 1);
+  animation: opacitiOn 0.5s ease-in-out;
+}
+.panda-fig.opened {
+  position: initial;
+  margin: 0;
+  width: 53.33px;
+  height: 40px;
+  background-image: url("../assets/icons/ellipse-panda-1200.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: opacitiOn 0.5s ease-in-out;
+}
+.coala-fig.opened {
+  position: initial;
+  margin: 0;
+  width: 42.64px;
+  height: 53.92px;
+  background-image: url("../assets/icons/coala-1200.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: opacitiOn 0.5s ease-in-out;
+}
+.lion-fig.opened {
+  position: initial;
+  margin: 0;
+  width: 52.04px;
+  height: 46.7px;
+  background-image: url("../assets/icons/lion-1200.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: opacitiOn 0.5s ease-in-out;
+}
+.alligator-fig.opened {
+  position: initial;
+  margin: 0;
+  width: 57.76px;
+  height: 46.7px;
+  background-image: url("../assets/icons/alligator-1200.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: opacitiOn 0.5s ease-in-out;
+}
+.tiger-fig.opened {
+  position: initial;
+  margin: 0;
+  width: 59.79px;
+  height: 50px;
+  background-image: url("../assets/icons/tiger-1200.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: opacitiOn 0.5s ease-in-out;
+}
+
+/* CAMS-INNER SECTION */
+.top-layer {
+  width: 500px;
+}
+
+/* DONATE */
+.donation-text {
+  max-width: 920px;
+}
+
+/* INFO */
+.did-u-know {
+  height: 375px;
+}
+.dun-title {
+  margin: 50px 0 0 0;
+}
+.caption-button {
+  left: 360px;
+}
+.caption-button:hover,
+.caption-button:active {
+  background-color: var(--orange);
+  color: var(--white);
+}
+.info-text {
+  margin: 49px 0 0 0;
+}
+.photo {
+  margin: 0;
+}
+.photo img {
+  border-radius: 5px;
+}

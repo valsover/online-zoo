@@ -361,16 +361,16 @@ input[type="number"] {
   align-items: center;
   border: 1px solid var(--black);
   background-color: rgba(0, 0, 0, 0);
+  background: url(../assets/icons/arrow-favourite.svg) no-repeat;
+  background-position: 298px 50%;
   color: var(--black);
   letter-spacing: 0.48px;
 }
 .main-button:hover,
 .main-button:active {
-  background-color: var(--navy);
+  background: var(--navy) url(../assets/icons/white-arrow.svg) no-repeat;
+  background-position: 298px 50%;
   color: var(--white);
-}
-.main-button.active svg {
-  fill: var(--white);
 }
 
 /* PAY AND FEED */
@@ -695,16 +695,16 @@ input[type="number"] {
   align-items: center;
   border: 1px solid var(--navy);
   background-color: rgba(0, 0, 0, 0);
+  background: url(../assets/icons/arrow-favourite.svg) no-repeat;
+  background-position: 298px 50%;
   color: var(--navy);
   letter-spacing: 0.5px;
 }
 .animals-feed-button:hover,
 .animals-feed-button:active {
-  background-color: var(--navy);
+  background: var(--navy) url(../assets/icons/white-arrow.svg) no-repeat;
+  background-position: 298px 50%;
   color: var(--white);
-}
-.animals-feed-button.active svg {
-  fill: var(--white);
 }
 .feed-bottom-img {
   width: 1400px;
