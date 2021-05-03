@@ -805,7 +805,7 @@
         </div>
       </footer>
     </div>
-    <div class="pop-up">
+    <div class="pop-up hidden">
       <div class="pop-up-img">
         <button class="pop-up-close"></button>
       </div>
@@ -828,7 +828,175 @@
         </div>
       </div>
     </div>
-    <div class="blanket"></div>
+    <div class="donation-pop-up">
+      <div class="step step1">
+        <button class="step1-close step-close"></button>
+        <h3 class="step-title">Make your donation</h3>
+        <p class="step-info">Donation Information:</p>
+        <p class="amount-title body-text">
+          <span class="symbol">*</span> Choose your donation amount:
+        </p>
+        <div class="step-btns">
+          <button class="step-btn btn-font">$10</button>
+          <button class="step-btn btn-font">$20</button>
+          <button class="step-btn btn-font">$30</button>
+          <button class="step-btn btn-font">$50</button>
+          <button class="step-btn btn-font">$80</button>
+          <button class="step-btn btn-font">$100</button>
+        </div>
+        <div class="step1-form other-amount">
+          <p class="step1-title btn-font other-amount-title">Other amount</p>
+          <input id="other-amount" type="number" />
+        </div>
+        <div class="step1-form favourite-btn-pop">
+          <p class="step1-title btn-font favourite-btn-pop-title">
+            For special pet
+          </p>
+          <button id="favourite-btn-pop">Choose your favourite</button>
+          <ul class="favourite-pop-list">
+            <li class="favourite-pop-list-item body-text">Lukas the Panda</li>
+            <li class="favourite-pop-list-item body-text">Andy the Lemur</li>
+            <li class="favourite-pop-list-item body-text">Glen the Gorilla</li>
+            <li class="favourite-pop-list-item body-text">
+              Mike the Alligator
+            </li>
+            <li class="favourite-pop-list-item body-text">
+              Sam & Lora the eagles family
+            </li>
+            <li class="favourite-pop-list-item body-text">Liz the Koala</li>
+            <li class="favourite-pop-list-item body-text">Shake the Lion</li>
+            <li class="favourite-pop-list-item body-text">Senja the Tiger</li>
+          </ul>
+        </div>
+        <div class="check">
+          <button class="check-mark"></button>
+          <p class="check-text">Make this a monthly recurring gift</p>
+        </div>
+        <div class="next-block">
+          <div class="next-dots">
+            <p class="next-dot filled-dot"></p>
+            <p class="next-dot"></p>
+            <p class="next-dot"></p>
+          </div>
+          <button class="next-btn step1-next-btn btn-font">
+            Next
+            <img src="assets/icons/white-arrow.svg" alt="" class="arrow" />
+          </button>
+        </div>
+        <hr class="step1-line" />
+      </div>
+      <div class="step step2">
+        <button class="step2-close step-close"></button>
+        <h3 class="step-title">Make your donation</h3>
+        <p class="step-info">Billing Information:</p>
+        <div class="step2-form name-pop">
+          <p class="step2-title btn-font name-pop-title">
+            <span class="symbol">*</span> Your Name
+          </p>
+          <input id="name-pop" type="text" />
+        </div>
+        <div class="step2-form email-pop">
+          <p class="step2-title btn-font email-pop-title">
+            <span class="symbol">*</span> Your Email Address
+          </p>
+          <input id="email-pop" type="email" required />
+        </div>
+        <p class="step2-text body-text">
+          You will receive emails from the Online Zoo, including updates and
+          news on the latest discoveries and translations. You can unsubscribe
+          at any time.
+        </p>
+        <div class="next-block step2-next">
+          <div class="next-dots">
+            <p class="next-dot filled-dot"></p>
+            <p class="next-dot filled-dot"></p>
+            <p class="next-dot"></p>
+          </div>
+          <button class="back-btn step2-back-btn btn-font no-outline">
+            Back
+          </button>
+          <button class="next-btn step2-next-btn btn-font no-outline" form="">
+            Next
+            <img src="assets/icons/white-arrow.svg" alt="" class="arrow" />
+          </button>
+        </div>
+        <hr class="step2-line" />
+      </div>
+      <div class="step step3">
+        <button class="step3-close step-close"></button>
+        <h3 class="step-title">Make your donation</h3>
+        <p class="step-info">Payment Information:</p>
+        <form
+          action="#"
+          class="step3-form-grid"
+          id="step3-form-grid"
+          name="step3-form-grid"
+        >
+          <div class="step3-grid-item1">
+            <p class="grid-item-label body-text">
+              <span class="symbol">*</span> Credit Card Number
+            </p>
+            <input type="number" required />
+          </div>
+          <div class="step3-grid-item2">
+            <p class="grid-item-label body-text">
+              <span class="symbol">*</span> CVV Number
+            </p>
+            <input type="number" required />
+          </div>
+          <div class="step3-grid-item3">
+            <p class="grid-item-label body-text">
+              <span class="symbol">*</span> Expiration Date
+            </p>
+            <p>
+              <select size="1" name="month" id="step3-month" required>
+                <option selected>Month</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+            </p>
+          </div>
+          <div class="step3-grid-item4">
+            <p>
+              <select size="1" name="year" id="step3-year" required>
+                <option selected>Year</option>
+                <option value="">21</option>
+                <option value="">22</option>
+                <option value="">23</option>
+                <option value="">24</option>
+                <option value="">25</option>
+              </select>
+            </p>
+          </div>
+        </form>
+        <div class="next-block step3-next">
+          <div class="next-dots">
+            <p class="next-dot filled-dot"></p>
+            <p class="next-dot filled-dot"></p>
+            <p class="next-dot filled-dot"></p>
+          </div>
+          <button class="back-btn step3-back-btn btn-font no-outline">
+            Back
+          </button>
+          <button class="complete-btn btn-font">
+            Complete donation
+            <img src="assets/icons/white-arrow.svg" alt="" class="arrow" />
+          </button>
+        </div>
+        <hr class="step3-line" />
+      </div>
+    </div>
+    <div class="blanket hidden"></div>
     <script src="pages/script.js"></script>
     <script src="pages/header.js"></script>
   </body>
