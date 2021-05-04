@@ -149,6 +149,9 @@
   .main-inner {
     max-width: 640px;
   }
+  .map {
+    margin-bottom: 98px;
+  }
   .map-img {
     margin-top: 67px;
     width: 640px;
@@ -156,6 +159,7 @@
     background-image: url("../assets/icons/640-map.svg");
   }
   .main-title {
+    margin-top: 30px;
     font-size: 42px;
   }
   .map img {
@@ -221,9 +225,9 @@
     font-size: 26px;
   }
   .map-img {
-    width: 300px;
+    width: 320px;
     height: 234px;
-    margin-top: 0;
+    margin: 0;
     background-image: url("../assets/icons/320-map.svg");
   }
   .map {

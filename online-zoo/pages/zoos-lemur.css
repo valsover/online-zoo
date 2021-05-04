@@ -176,3 +176,253 @@
 .caption-button {
   left: 265px;
 }
+
+/* M E D I A  */
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  /* SIDEBAR */
+  .lemur-fig {
+    top: 42px;
+    left: 45px;
+    width: 24px;
+    height: 40px;
+    background-image: url("../assets/icons/ellipce-lemur-white-1200.svg");
+    background-size: cover;
+    transform: none;
+  }
+  .panda-fig {
+    top: 31px;
+    left: 31px;
+    width: 54px;
+    height: 40px;
+    background-image: url("../assets/icons/ellipse-panda-1200.svg");
+    background-size: cover;
+  }
+  .eagles-fig {
+    top: 31px;
+    left: 36px;
+    width: 43px;
+    height: 40px;
+    background-image: url("../assets/icons/ellipse-eagles-1200.svg");
+    background-size: cover;
+  }
+  .gorilla-fig {
+    top: 31px;
+    left: 35px;
+    width: 46px;
+    height: 40px;
+    background-image: url("../assets/icons/ellipce-gorilla-1200.svg");
+    background-size: cover;
+  }
+
+  /* LIVE CAMS SECTION */
+  .left-arrow,
+  .right-arrow {
+    margin: 0 0 18px 0;
+  }
+
+  /* DONATE */
+  .donate {
+    height: 250px;
+  }
+  .donation-title {
+    width: 645px;
+    margin-bottom: 9px;
+  }
+
+  /* INFO */
+  .did-u-know {
+    height: 300px;
+  }
+  .dun-title {
+    margin-top: 31px;
+  }
+  .animal-info {
+    margin: 92px 0 45px 0;
+  }
+  .info-text {
+    margin-top: 49px;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1199px) {
+  /* SIDEBAR */
+  .lemur-fig {
+    top: 46px;
+    left: 29px;
+    width: 18px;
+    height: 30px;
+    background-image: url("../assets/icons/ellipce-lemur-white-1200.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .panda-fig {
+    top: 35px;
+    left: 19px;
+    width: 40px;
+    height: 30px;
+    background-image: url("../assets/icons/ellipse-panda-1200.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .eagles-fig {
+    top: 35px;
+    left: 23px;
+    width: 32px;
+    height: 30px;
+    background-image: url("../assets/icons/ellipse-eagles-1200.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .gorilla-fig {
+    top: 34px;
+    left: 22px;
+    width: 34px;
+    height: 30px;
+    background-image: url("../assets/icons/ellipce-gorilla-1200.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+
+  /* LIVE CAMS SECTION */
+  .cams-title {
+    width: 445px;
+    font-size: 54px;
+    font-weight: 600;
+    margin: 18px 0 14px 62px;
+    padding-right: 0;
+  }
+  .top-layer {
+    width: 535px;
+  }
+
+  /* DONATE */
+  .donate {
+    height: 488px;
+    margin: 77px 0 105px 0;
+  }
+
+  /* INFO */
+  .animal-info {
+    margin: 71px 0 74px 0;
+  }
+  .did-u-know {
+    height: 353px;
+  }
+  .dun-title {
+    margin-top: 25px;
+  }
+  .info-list {
+    margin-top: 68px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 639px) {
+  /* SIDEBAR */
+  .lemur-fig {
+    top: 49px;
+    left: 18.5px;
+    width: 12px;
+    height: 20px;
+    background-image: url("../assets/icons/ellipce-lemur-white-1200.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .panda-fig {
+    top: 41px;
+    left: 12px;
+    width: 26px;
+    height: 19.5px;
+    background-image: url("../assets/icons/ellipse-panda-1200.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    z-index: 98;
+  }
+  .eagles-fig {
+    top: 40px;
+    left: 15px;
+    width: 21px;
+    height: 19.7px;
+    background-image: url("../assets/icons/ellipse-eagles-1200.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    z-index: 98;
+  }
+  .gorilla-fig {
+    top: 39px;
+    left: 14px;
+    width: 22px;
+    height: 19.4px;
+    background-image: url("../assets/icons/ellipce-gorilla-1200.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    z-index: 98;
+  }
+
+  /* LIVE CAMS SECTION */
+  .cams-title {
+    margin: 20px 0 14px 33px;
+  }
+  .donate-now-btn {
+    right: 42px;
+  }
+
+  /* DONATE */
+  .donate,
+  .donate-inner {
+    height: 649px;
+  }
+  .donation-form {
+    margin-bottom: 180px;
+  }
+  .donate-inner {
+    padding-top: 49px;
+  }
+  #donation-amount {
+    padding: 11px 0 11px 26px;
+  }
+
+  /* INFO */
+  .did-u-know {
+    height: 346px;
+    margin: 28px auto;
+  }
+  .animal-info {
+    margin-top: 42px;
+    margin-bottom: 77px;
+  }
+  .info-list-item:nth-child(1) {
+    line-height: 185%;
+    letter-spacing: 0.5px;
+  }
+  .info-list-item:nth-child(4) {
+    width: 270px;
+    margin-bottom: 65px;
+    line-height: 145%;
+    letter-spacing: 0.3px;
+  }
+  .info-list-item:nth-child(6) {
+    width: 300px;
+    line-height: 170%;
+    letter-spacing: 0.3px;
+  }
+  .info-list-item:nth-child(7) {
+    width: 200px;
+    line-height: 170%;
+    letter-spacing: 0.4px;
+  }
+  .caption-button {
+    left: 26px;
+    top: 85px;
+  }
+  .info-text {
+    margin: 322px 10px 0 10px;
+  }
+}

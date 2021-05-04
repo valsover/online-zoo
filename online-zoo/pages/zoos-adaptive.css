@@ -4,15 +4,6 @@
     width: 115px;
     z-index: 9999;
   }
-  .row1 {
-    width: 115px;
-  }
-  .row2,
-  .row3,
-  .row4,
-  .row5 {
-    width: 115px;
-  }
   .live-sign {
     display: none;
   }
@@ -26,41 +17,16 @@
   .circle {
     background-image: none;
   }
-  .eagles-fig {
-    top: 42px;
-    left: 36px;
-    width: 43px;
-    height: 40px;
-    background-image: url("../assets/icons/ellipse-eagles-white-1200.svg");
-  }
-  .panda-fig {
-    top: 30px;
-    left: 30px;
-    width: 54px;
-    height: 40px;
-    background-image: url("../assets/icons/ellipse-panda-1200.svg");
-  }
-  .gorilla-fig {
-    top: 30px;
-    left: 35px;
-    width: 46px;
-    height: 40px;
-    background-image: url("../assets/icons/ellipce-gorilla-1200.svg");
-  }
-  .lemur-fig {
-    top: 30px;
-    left: 45px;
-    width: 24px;
-    height: 40px;
-    background-image: url("../assets/icons/ellipce-lemur-1200.svg");
-    transform: none;
-  }
 
   /* LIVE CAMS SECTION */
   .cams-inner {
     max-width: 1120px;
     margin: 0;
     align-items: flex-start;
+  }
+  .cams-inner.side-bar {
+    /* размер полей при открытии сайдбара */
+    margin: 0;
   }
   .cams-title {
     margin: 30px 0 30px 210px;
@@ -95,43 +61,20 @@
     padding-left: 0;
     margin-left: 20px;
   }
-  .left-arrow,
-  .right-arrow {
-    margin: 0 0 18px 0;
-  }
   .slider-images {
     grid-gap: 19px;
   }
-  .video2 iframe,
-  .video3 iframe,
-  .video4 iframe {
+  .video iframe {
     width: 267px;
   }
-  .live-layer-1 {
+  .live-layer {
     padding-left: 14px;
     padding-top: 2px;
     width: 250px;
   }
-  .live-layer-2 {
-    padding-left: 11px;
-    width: 250px;
-  }
-  .live-layer-3 {
-    padding-left: 9px;
-    width: 250px;
-  }
-  .donation-title {
-    width: 512px;
-    margin-bottom: 13px;
-  }
-  .donation-text {
-    width: 692px;
-    text-align: start;
-  }
 
   /* DONATE */
   .donate {
-    height: 283px;
     margin: 96px 0;
     background-color: var(--navy);
   }
@@ -139,30 +82,32 @@
     max-width: 1120px;
     padding: 30px 0;
   }
+  .donation-text {
+    width: 739px;
+    text-align: start;
+  }
 
   /* INFO */
   .info-inner {
     max-width: 1120px;
+    padding-top: 3px;
   }
   .did-u-know {
     width: 930px;
-    height: 369px;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
     margin-left: 95px;
   }
   .dun-title {
-    margin-top: 30.5px;
+    margin-top: 35px;
     padding-left: 39.5px;
   }
   .dun-text {
     width: 740px;
+    padding-right: 7px;
+    letter-spacing: -0.2px;
   }
   .animal-info {
     width: 1120px;
-    margin: 101px 0 90px 0;
-  }
-  .info-text {
-    margin-top: 37.5px;
   }
   .photo img {
     width: 456px;
@@ -204,46 +149,6 @@
   .circle {
     background-image: none;
   }
-  .eagles-fig {
-    top: 46px;
-    left: 23px;
-    width: 32px;
-    height: 30px;
-    background-image: url("../assets/icons/ellipse-eagles-white-1200.svg");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-  .panda-fig {
-    top: 33px;
-    left: 19px;
-    width: 40px;
-    height: 30px;
-    background-image: url("../assets/icons/ellipse-panda-1200.svg");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-  .gorilla-fig {
-    top: 34px;
-    left: 22px;
-    width: 34px;
-    height: 30px;
-    background-image: url("../assets/icons/ellipce-gorilla-1200.svg");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-  .lemur-fig {
-    top: 32px;
-    left: 30px;
-    width: 18px;
-    height: 30px;
-    background-image: url("../assets/icons/ellipce-lemur-1200.svg");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
   .down {
     left: 32px;
     bottom: 21px;
@@ -252,7 +157,7 @@
   /* LIVE CAMS SECTION */
   .cams {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 78px auto;
   }
   .cams-inner {
     max-width: 542px;
@@ -261,15 +166,15 @@
   }
   .cams-title {
     font-size: 42px;
-    margin: 25px 0 21px 63px;
+    margin: 25px 0 21px 70px;
     letter-spacing: -0.5px;
   }
   .donate-now-btn {
     width: 212px;
     height: 24px;
-    top: 482px;
+    top: 468px;
     padding-left: 20px;
-    right: 57px;
+    right: 0;
   }
   .main-video iframe {
     width: 542px;
@@ -290,7 +195,7 @@
   }
   .cams-slider {
     max-width: 445px;
-    margin-left: 55px;
+    margin-left: 97px;
     align-items: flex-start;
   }
   .slider-title {
@@ -309,22 +214,17 @@
   }
   .slider-images {
     margin: 0;
+    grid-gap: 20px;
   }
-  .video2 iframe,
-  .video3 iframe,
-  .video4 iframe {
+  .video iframe {
     width: 135px;
     height: 106px;
   }
-  .slider-top-layer-1,
-  .slider-top-layer-2,
-  .slider-top-layer-3 {
+  .slider-top-layer {
     width: 135px;
     height: 106px;
   }
-  .live-layer-1,
-  .live-layer-2,
-  .live-layer-3 {
+  .live-layer {
     padding-left: 12px;
     padding-top: 2px;
     width: 72px;
@@ -333,20 +233,15 @@
     display: flex;
     align-items: center;
   }
-  .live-layer-1 img,
-  .live-layer-2 img,
-  .live-layer-3 img {
+  .live-layer img {
     width: 12px;
     height: 12px;
     padding-left: 3px;
   }
+
   /* DONATE */
-  .donate {
-    height: 515px;
-    margin: 77px 0;
-  }
   .donate-inner {
-    max-width: 600px;
+    width: 600px;
     padding: 50px 0;
     flex-direction: column;
     align-items: center;
@@ -382,11 +277,11 @@
 
   /* INFO */
   .info-inner {
-    max-width: 600px;
+    width: 600px;
   }
   .did-u-know {
     width: 600px;
-    height: 506px;
+    height: 354px;
     margin-left: 0;
   }
   .dun-title {
@@ -400,7 +295,7 @@
   }
   .animal-info {
     width: 600px;
-    margin: 65px 0 99px 0;
+    margin: 56px 0 99px 0;
   }
   .short-info {
     width: 600px;
@@ -415,11 +310,8 @@
   .photo {
     order: -1;
   }
-  .info-list {
-    margin-top: 78px;
-  }
   .info-text {
-    margin-top: 49px;
+    margin-top: 46px;
   }
 }
 
@@ -437,6 +329,12 @@
     z-index: 99;
     top: 0;
   }
+  .live-sign {
+    display: none;
+  }
+  .circle {
+    background-image: none;
+  }
   .row1,
   .row2,
   .row3,
@@ -450,52 +348,25 @@
     left: 16px;
     top: 17px;
   }
-  .eagles-fig {
-    top: 50px;
-    left: 15px;
-    width: 21px;
-    height: 19.7px;
-    background-size: cover;
-    z-index: 98;
-  }
-  .panda-fig {
-    top: 40px;
-    left: 12px;
-    width: 26px;
-    height: 19.5px;
-    background-size: cover;
-    z-index: 98;
-  }
-  .gorilla-fig {
-    top: 39px;
-    left: 14px;
-    width: 22px;
-    height: 19.4px;
-    background-size: cover;
-    z-index: 98;
-  }
-  .lemur-fig {
-    top: 37.5px;
-    left: 18.5px;
-    width: 12px;
-    height: 20px;
-    background-size: cover;
-    z-index: 98;
-  }
   .down {
     left: 17px;
     bottom: 19px;
   }
 
   /* LIVE CAMS SECTION */
+  .cams {
+    display: grid;
+    grid-template-columns: 50px auto;
+  }
   .cams-inner {
-    max-width: 302px;
-    justify-content: flex-start;
+    max-width: 270px;
+    margin: 0;
+    align-items: start;
+    justify-content: start;
   }
   .cams-title {
     font-size: 26px;
-    margin: 20px 0 14px 2px;
-    letter-spacing: 0;
+    letter-spacing: 0.5px;
   }
   .main-video iframe {
     width: 270px;
@@ -507,7 +378,7 @@
   }
   .top-layer {
     font-size: 7.5px;
-    width: 260px;
+    width: 260px !important;
     height: 40px;
     margin-left: 2px;
     margin-top: 2px;
@@ -517,13 +388,13 @@
   .donate-now-btn {
     width: 300px;
     height: 45px;
-    top: 453px;
+    top: 439px;
+    right: 10px !important;
     padding: 11.5px 0 11.5px 64px;
-    right: 9px;
   }
   .left-arrow,
-  .video4,
-  .right-arrow {
+  .right-arrow,
+  .video:nth-child(3) {
     display: none;
   }
   .cams-slider {
@@ -535,23 +406,36 @@
   }
   .slider-title {
     margin: 0;
-    margin-left: 77px;
+    margin-left: 21px;
     font-size: 18px;
     text-transform: uppercase;
   }
   .cams-slider-inner {
     margin-left: 0;
     margin-top: 20px;
+    padding-left: 0;
   }
-  .video2 iframe,
-  .video3 iframe {
+  .slider-images {
+    grid-gap: 20px;
+  }
+  .video iframe {
     width: 140px;
     height: 110px;
   }
-  .slider-top-layer-1,
-  .slider-top-layer-2 {
+  .slider-top-layer {
     width: 140px;
     height: 110px;
+  }
+  .live-layer {
+    width: 75px;
+    height: 25px;
+    font-size: 11px;
+    line-height: 150%;
+    padding: 4px 0 0 12px;
+  }
+  .live-layer img {
+    width: 12px;
+    height: 12px;
   }
 
   /* DONATE */
@@ -560,8 +444,9 @@
     margin: 285px 0 20px 0;
   }
   .donate-inner {
+    flex-direction: column;
     max-width: 300px;
-    padding-top: 30px;
+    padding-top: 19px;
   }
   .donation-title {
     width: 300px;
@@ -578,13 +463,13 @@
     width: 300px;
     margin-top: 23px;
   }
+  .donation-fname {
+    margin-left: 60px;
+  }
   .input-donation,
   #donation-amount {
     width: 300px;
     height: 45px;
-  }
-  #donation-amount {
-    padding: 8px 0 14px 26px;
   }
   #donation-amount::placeholder {
     font-size: 16px;
@@ -597,19 +482,22 @@
 
   /* INFO */
   .info-inner {
-    max-width: 320px;
+    max-width: 320px !important;
+  }
+  .animal-info {
+    width: 320px !important;
   }
   .did-u-know {
     width: 300px;
-    height: 482px;
-    margin: 70px auto 0 auto;
+    height: 347px;
   }
   .dun-title {
     width: 280px;
-    margin: 30px auto 0 auto;
+    margin: 30px auto 0 auto !important;
     font-size: 26px;
     font-weight: 500;
     text-align: center;
+    letter-spacing: 0.5px;
   }
   .dun-text {
     width: 280px;
@@ -617,12 +505,10 @@
     padding-right: 0;
     font-size: 18px;
     line-height: 150%;
-  }
-  .animal-info {
-    margin-top: 50px;
-    margin-bottom: 77px;
+    letter-spacing: -0.1px;
   }
   .photo {
+    order: 1;
     width: 320px;
     height: 320px;
   }
@@ -632,32 +518,30 @@
   }
   .short-info {
     width: 300px;
+    flex-direction: column;
   }
   .info-list {
-    width: 300px;
-    margin-top: 50px;
+    order: 2;
+    width: 238px;
+    margin-top: 41px;
     margin-left: 10px;
   }
   .property {
     padding-right: 0;
   }
   .info-list-item:nth-child(1) {
-    width: 253px;
     margin-bottom: 52px;
-    line-height: 190%;
   }
   .info-list-item:nth-child(2) {
-    margin-bottom: 50px;
+    margin-bottom: 46px;
     line-height: 170%;
+    letter-spacing: 0.4px;
   }
   .info-list-item:nth-child(3) {
     width: 95px;
     margin-bottom: 49px;
     line-height: 170%;
-  }
-  .info-list-item:nth-child(4) {
-    width: 300px;
-    margin-bottom: 70px;
+    letter-spacing: 0.5px;
   }
   .info-list-item:nth-child(4) > .property::after {
     content: "\a";
@@ -667,31 +551,24 @@
     width: 95px;
     margin-bottom: 49px;
     line-height: 170%;
+    letter-spacing: 0.4px;
   }
   .info-list-item:nth-child(6) {
-    width: 300px;
-    margin-bottom: 76px;
-    line-height: 165%;
+    width: 95px;
+    margin-bottom: 49px;
   }
   .info-list-item:nth-child(6) > .property::after {
     content: "\a";
     white-space: pre;
   }
   .info-list-item:nth-child(7) {
-    width: 300px;
     margin-bottom: 49px;
-    line-height: 165%;
   }
   .info-list-item:nth-child(7) > .property::after {
     content: "\a";
     white-space: pre;
   }
-  .caption-button {
-    left: 30px;
-    top: 81px;
-  }
   .info-text {
     width: 300px;
-    margin: 355px 10px 0 10px;
   }
 }

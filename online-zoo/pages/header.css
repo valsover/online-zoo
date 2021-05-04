@@ -1,7 +1,7 @@
 /* HEADER */
 .header {
   width: 100%;
-  margin: 0;
+  margin: 0 auto;
   background-color: var(--orange);
 }
 .header-inner {
@@ -268,11 +268,12 @@
 @media screen and (min-width: 320px) and (max-width: 639px) {
   .header {
     position: sticky;
+    -webkit-position: sticky;
     top: 0;
     z-index: 100;
   }
   .header-inner {
-    position: relative;
+    /* position: relative; */
     width: 280px;
     margin: 0 auto;
   }
@@ -284,8 +285,9 @@
   }
   .burger-menu {
     display: block;
-    width: 22px;
-    margin-top: 15px;
+    width: 25px;
+    height: 30px;
+    padding: 0;
     margin-right: 10px;
   }
   .top-nav-list.side-menu {
@@ -320,6 +322,9 @@
     100% {
       opacity: 1;
     }
+  }
+  .top-nav-item {
+    margin: 0 !important;
   }
   .nav-item-ref.side-menu {
     color: rgb(255, 255, 255);
