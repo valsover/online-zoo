@@ -844,10 +844,12 @@
           <button class="step-btn btn-font">$80</button>
           <button class="step-btn btn-font">$100</button>
         </div>
-        <div class="step1-form other-amount">
-          <p class="step1-title btn-font other-amount-title">Other amount</p>
-          <input id="other-amount" type="number" />
-        </div>
+        <form action="#" class="step1-form other-amount">
+          <label class="step1-title btn-font other-amount-title"
+            >Other amount</label
+          >
+          <input type="number" id="other-amount" min="1" max="4" />
+        </form>
         <div class="step1-form favourite-btn-pop">
           <p class="step1-title btn-font favourite-btn-pop-title">
             For special pet
@@ -936,13 +938,13 @@
             <p class="grid-item-label body-text">
               <span class="symbol">*</span> Credit Card Number
             </p>
-            <input type="number" required />
+            <input type="number" min="16" max="16" required />
           </div>
           <div class="step3-grid-item2">
             <p class="grid-item-label body-text">
               <span class="symbol">*</span> CVV Number
             </p>
-            <input type="number" required />
+            <input type="number" min="3" max="3" required />
           </div>
           <div class="step3-grid-item3">
             <p class="grid-item-label body-text">
@@ -975,6 +977,7 @@
                 <option value="">23</option>
                 <option value="">24</option>
                 <option value="">25</option>
+                <option value="">26</option>
               </select>
             </p>
           </div>
