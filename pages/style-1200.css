@@ -3,7 +3,7 @@
   .hero {
     height: 690px;
     background: url("../assets/images/1200-hero-bg-image.png") no-repeat left
-      bottom;
+      center;
     background-size: 100%;
   }
   .hero-inner {
