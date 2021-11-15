@@ -16,4 +16,4 @@
 >
 > • **Adobe photoshop** - images editing.
 
-![](https://raw.githubusercontent.com/valsover/museum/main/assets/img/valsover.github.io_online-zoo_.png)
+![](https://raw.githubusercontent.com/valsover/online-zoo/main/assets/images/valsover.github.io_online-zoo_.png)
